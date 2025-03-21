@@ -1,0 +1,746 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+}
+
+body {
+  position: relative;
+  width: 1920px;
+  height: 6814px;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+body .arrow {
+  width: 32px;
+  height: 28px;
+  margin-top: 38px;
+}
+body .card-h2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 50px;
+  letter-spacing: -0.04em;
+  color: #191919;
+}
+body .explore-now {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 50px;
+  letter-spacing: -0.04em;
+  color: #7f7f7f;
+  margin-top: 7px;
+}
+
+.Header {
+  position: absolute;
+  top: 46px;
+  left: 100px;
+  width: 1720px;
+  height: 62px;
+}
+.Header img {
+  width: 236px;
+  height: 60px;
+  margin-left: 0;
+}
+
+.li-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  width: 840px;
+  height: 62px;
+}
+
+.li-btn ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 652px;
+  height: 36px;
+  margin: 13px 54px 13px 0;
+}
+.li-btn ul li {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: -0.22px;
+  color: #242323;
+}
+.li-btn ul li a {
+  color: black;
+}
+
+.btn-sing-up {
+  width: 134px;
+  height: 62px;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.section-unique {
+  position: absolute;
+  top: 46px;
+  left: 100px;
+  width: 1720px;
+  height: 852px;
+}
+
+.container-unique-clothes {
+  position: absolute;
+  top: 118px;
+  left: 0;
+  width: 1720px;
+  height: 852px;
+  border-radius: 59px;
+  background-color: #f4f6f5;
+}
+.container-unique-clothes h1 {
+  position: absolute;
+  top: 77px;
+  left: 119px;
+  width: 474px;
+  height: 473px;
+  font-weight: 900;
+  font-size: 96px;
+  color: #000;
+  line-height: 120px;
+}
+.container-unique-clothes p {
+  position: absolute;
+  top: 590px;
+  left: 119px;
+  width: 606px;
+  height: 58px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color: #191818;
+  letter-spacing: -1.6px;
+}
+.container-unique-clothes .btn-shop-now {
+  position: absolute;
+  top: 680px;
+  left: 125px;
+  width: 221px;
+  height: 82px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: -0.05em;
+}
+
+.unique-img {
+  position: absolute;
+  top: 68px;
+  right: 81px;
+  width: 871px;
+  height: 784px;
+}
+.unique-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.gray-star {
+  width: 58px;
+  height: 56px;
+}
+
+.gray-star1 {
+  position: absolute;
+  top: 68px;
+  left: 748px;
+}
+
+.gray-star2 {
+  position: absolute;
+  top: 104px;
+  left: 1424px;
+}
+
+.gray-star3 {
+  position: absolute;
+  top: 762px;
+  left: 791px;
+}
+
+.gray-star4 {
+  position: absolute;
+  top: 704px;
+  left: 1579px;
+}
+
+.unique-bg-white {
+  position: absolute;
+  top: 77px;
+  left: 82px;
+  width: 465px;
+  height: 112px;
+  rotate: -2deg;
+  background-color: #fff;
+}
+
+.unique-bg-gold {
+  position: absolute;
+  top: 311px;
+  left: 93px;
+  width: 496px;
+  height: 118px;
+  rotate: -2deg;
+  background-color: #ebd96b;
+}
+
+.brand {
+  position: absolute;
+  top: 1079px;
+  left: 0;
+  width: 1920px;
+  height: 186px;
+  background-color: #ebd96b;
+}
+
+.brand-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 61px;
+  left: 171px;
+  width: 1578px;
+  height: 71px;
+}
+
+.hm {
+  width: 118px;
+  height: 70px;
+  mix-blend-mode: darken;
+}
+
+.obey {
+  width: 150px;
+  height: 52px;
+  mix-blend-mode: multiply;
+  margin-top: 9px;
+}
+
+.shopify {
+  width: 176px;
+  height: 62px;
+  margin-top: 4px;
+  mix-blend-mode: multiply;
+}
+
+.lacoste {
+  width: 235px;
+  height: 70px;
+  mix-blend-mode: multiply;
+}
+
+.levis {
+  width: 127px;
+  height: 70px;
+  mix-blend-mode: multiply;
+}
+
+.amazon {
+  width: 166px;
+  height: 63px;
+  margin-top: 3.5px;
+  mix-blend-mode: multiply;
+}
+
+.new-arrivals {
+  position: absolute;
+  top: 1334px;
+  left: 104px;
+  width: 1714px;
+}
+
+.new-arrivals-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+  height: 58px;
+}
+
+.new-arrivals-cards {
+  display: flex;
+  margin-top: 159px;
+  width: 100%;
+  height: 808px;
+  gap: 90px;
+}
+
+.new-arrivals-cards-img {
+  width: 100%;
+  height: 704px;
+  border-radius: 20px;
+}
+
+.hoodies {
+  width: 484px;
+  height: 100%;
+}
+
+.coats {
+  margin-bottom: 3px;
+  width: 484px;
+  height: 805px;
+}
+
+.tees {
+  margin-bottom: 3px;
+  width: 490px;
+  height: 805px;
+}
+
+.explore-now-hoodies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 76px;
+  margin-top: 28px;
+}
+
+.hoodies-text {
+  width: 321px;
+  height: 100%;
+}
+.hoodies-text h2 {
+  width: 100%;
+  height: 36px;
+}
+.hoodies-text p {
+  width: 151px;
+  height: 33px;
+}
+
+.explore-now-coats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  margin-top: 26px;
+}
+
+.coats-text {
+  width: 230px;
+  height: 100%;
+}
+.coats-text h2 {
+  width: 100%;
+  height: 36px;
+}
+.coats-text p {
+  width: 153px;
+  height: 32px;
+}
+
+.explore-now-tees {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  margin-top: 26px;
+}
+
+.tees-text {
+  width: 230px;
+  height: 100%;
+}
+.tees-text h2 {
+  width: 100%;
+  height: 36px;
+}
+.tees-text p {
+  width: 153px;
+  height: 32px;
+}
+
+.section-payday {
+  position: absolute;
+  top: 2491px;
+  left: 0;
+  width: 1920px;
+  height: 968px;
+}
+
+.payday-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 992px;
+  height: 100%;
+}
+.payday-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.white-star {
+  width: 76px;
+  height: 76px;
+}
+
+.white-star1 {
+  position: absolute;
+  top: 152px;
+  left: 136px;
+}
+
+.white-star2 {
+  position: absolute;
+  top: 84px;
+  left: 765px;
+}
+
+.white-star3 {
+  position: absolute;
+  top: 490px;
+  left: 187px;
+}
+
+.white-star4 {
+  position: absolute;
+  top: 639px;
+  left: 817px;
+}
+
+.payday-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 932px;
+  height: 100%;
+  background: linear-gradient(1.32deg, #e0c340 0.13%, #dfc23e 3.97%, #e1c441 7.2%, #e3c743 10.13%, #e4c542 12.98%, #e6c744 15.99%, #e7c845 19.52%, #e5c643 23.96%, #e6c945 30.43%, #e3c743 36.49%, #e9ca48 42.49%, #edce49 49.35%, #f0d44c 55.42%, #f4d84f 61.43%, #f6da52 65.74%, #f7db53 72.23%, #f9dd55 77.43%, #f9df56 83.84%, #fae157 91.52%, #f9df56 97.87%);
+}
+
+.payday-text {
+  position: absolute;
+  top: 128px;
+  left: 67px;
+  width: 667px;
+  height: 685px;
+}
+.payday-text h2 {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  width: 617px;
+  height: 287px;
+  font-weight: 900;
+  font-size: 112px;
+  color: #000;
+  line-height: 137px;
+}
+.payday-text .btn-shop-now-payday {
+  position: absolute;
+  bottom: 0;
+  left: 23px;
+  width: 266px;
+  height: 96px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.playday-p1 {
+  position: absolute;
+  top: 320px;
+  left: 23px;
+  width: 643px;
+  height: 91px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 52.32px;
+  letter-spacing: -0.02em;
+  color: #231300;
+}
+
+.playday-p2 {
+  position: absolute;
+  top: 451px;
+  left: 23px;
+  width: 429px;
+  height: 38px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 52.32px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.playday-p3 {
+  position: absolute;
+  top: 500px;
+  left: 23px;
+  width: 492px;
+  height: 37px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 52.32px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.payday-bg-white {
+  position: absolute;
+  top: 0;
+  left: -23px;
+  width: 542px;
+  height: 130px;
+  rotate: -2deg;
+  background-color: #fff;
+}
+
+.Favourites {
+  position: absolute;
+  top: 3649px;
+  left: 100px;
+  width: 1720px;
+  height: 847px;
+}
+
+.Favourites-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 551px;
+  height: 64px;
+}
+
+.Favourites-cards {
+  display: flex;
+  margin-top: 168px;
+  width: 100%;
+  height: 679px;
+  gap: 47px;
+}
+
+.Favourites-cards-img {
+  width: 100%;
+  height: 575px;
+  border-radius: 20px;
+}
+
+.trending {
+  width: 835px;
+  height: 100%;
+}
+
+.explore-now-trending {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 76px;
+  margin-top: 28px;
+}
+
+.trending-text {
+  width: 345px;
+  height: 100%;
+}
+.trending-text h2 {
+  width: 100%;
+  height: 36px;
+}
+.trending-text p {
+  width: 146px;
+  height: 33px;
+}
+
+.under {
+  width: 838px;
+  height: 100%;
+}
+
+.explore-now-under {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  margin-top: 28px;
+}
+
+.under-text {
+  width: 200px;
+  height: 100%;
+}
+.under-text h2 {
+  width: 100%;
+  height: 35px;
+}
+.under-text p {
+  width: 143px;
+  height: 33px;
+}
+
+.favourite-cards-img {
+  width: 100%;
+  height: 575px;
+  border-radius: 20px;
+}
+
+.voucher {
+  display: flex;
+  position: absolute;
+  top: 4716px;
+  left: 219px;
+  width: 1483px;
+  height: 710px;
+}
+
+.voucher-content {
+  position: absolute;
+  top: 181px;
+  left: 0;
+  width: 507px;
+  height: 382px;
+}
+
+.voucher-content-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 246px;
+}
+.voucher-content-text h2 {
+  width: 100%;
+  height: 144px;
+  font-weight: 900;
+  font-size: 48px;
+  color: #000;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+}
+.voucher-content-text p {
+  width: 419px;
+  height: 61px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #7c7c7c;
+  line-height: 35px;
+  letter-spacing: -0.04em;
+  margin-top: 41px;
+}
+
+.voucher-apps {
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 427px;
+  height: 71px;
+  gap: 19px;
+}
+
+.app-match {
+  position: absolute;
+  top: -22.5px;
+  right: 118px;
+  width: 3272.5x;
+  height: 755px;
+  border: 22.58px solid #c2c8da;
+  box-shadow: 0px 4px 63px rgba(0, 0, 0, 0.25);
+  border-radius: 34.9754px;
+  z-index: 1;
+}
+
+.circle1 {
+  width: 22px;
+  height: 24px;
+  position: absolute;
+  top: 55px;
+  left: 846px;
+}
+
+.circle2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 40px;
+  left: 1411px;
+}
+
+.circle3 {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 669px;
+  left: 812px;
+}
+
+.circle4 {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 590px;
+  left: 1466px;
+}
+
+.circles-small {
+  position: absolute;
+  top: 138px;
+  left: 937px;
+  width: 440px;
+  height: 434px;
+  border: 2.5px solid #efeceb;
+  border-radius: 50%;
+}
+
+.circles-medium {
+  position: absolute;
+  top: 90px;
+  left: 895px;
+  width: 537px;
+  height: 530px;
+  border: 2.5px solid #efeceb;
+  border-radius: 50%;
+}
+
+.circles-large {
+  position: absolute;
+  top: 40px;
+  left: 846px;
+  width: 637px;
+  height: 629px;
+  border: 2.5px solid #efeceb;
+  border-radius: 50%;
+}/*# sourceMappingURL=main.css.map */
