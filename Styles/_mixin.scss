@@ -32,3 +32,28 @@
   height: $sz28;
   margin-top: $sz38;
 }
+
+//responsive - max-width 519.5px
+
+@mixin explore-now-519 {
+  font-weight: 500;
+  font-size: 6.5px;
+  line-height: 13.5px;
+  letter-spacing: $em-04;
+  color: $gray-darkest;
+  margin-top: 10px;
+}
+
+@mixin card-h2-519 {
+  font-weight: 500;
+  font-size: 8.5px;
+  line-height: 13.5px;
+  letter-spacing: $em-04;
+  color: $black;
+}
+
+@mixin arrow-519 {
+  width: 9px;
+  height: 5px;
+  margin-top: 10px;
+}

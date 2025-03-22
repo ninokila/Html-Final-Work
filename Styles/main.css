@@ -46,6 +46,36 @@ body .explore-now {
   margin-top: 7px;
 }
 
+@media screen and (max-width: 519px) {
+  body {
+    position: relative;
+    width: 519px;
+    height: 1200px;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    padding-left: 1080px;
+  }
+  body .arrow {
+    width: 9px;
+    height: 5px;
+    margin-top: 10px;
+  }
+  body .card-h2 {
+    font-weight: 500;
+    font-size: 8.5px;
+    line-height: 13.5px;
+    letter-spacing: -0.04em;
+    color: #000000;
+  }
+  body .explore-now {
+    font-weight: 500;
+    font-size: 6.5px;
+    line-height: 13.5px;
+    letter-spacing: -0.04em;
+    color: #7a7a7a;
+    margin-top: 10px;
+  }
+}
 .Header {
   position: absolute;
   top: 46px;
@@ -528,6 +558,137 @@ body .explore-now {
   background-color: white;
 }
 
+@media screen and (max-width: 519px) {
+  .section-payday {
+    position: absolute;
+    top: 30.3px;
+    right: 0;
+    width: 519px;
+    height: 261.92px;
+  }
+  .payday-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 267.7px;
+    height: 100%;
+  }
+  .payday-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .white-star {
+    width: 20.57px;
+    height: 20.57px;
+  }
+  .white-star1 {
+    position: absolute;
+    top: 41.09px;
+    left: 36.82px;
+  }
+  .white-star2 {
+    position: absolute;
+    top: 22.73px;
+    left: 206.72px;
+  }
+  .white-star3 {
+    position: absolute;
+    top: 132.58px;
+    left: 50.6px;
+  }
+  .white-star4 {
+    position: absolute;
+    top: 172.9px;
+    left: 220.52px;
+  }
+  .payday-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 251.91px;
+    height: 100%;
+    background: linear-gradient(1.32deg, #e0c340 0.13%, #dfc23e 3.97%, #e1c441 7.2%, #e3c743 10.13%, #e4c542 12.98%, #e6c744 15.99%, #e7c845 19.52%, #e5c643 23.96%, #e6c945 30.43%, #e3c743 36.49%, #e9ca48 42.49%, #edce49 49.35%, #f0d44c 55.42%, #f4d84f 61.43%, #f6da52 65.74%, #f7db53 72.23%, #f9dd55 77.43%, #f9df56 83.84%, #fae157 91.52%, #f9df56 97.87%);
+  }
+  .payday-text {
+    position: absolute;
+    top: 34.67px;
+    left: 18.13px;
+    width: 166.29px;
+    height: 78.15px;
+  }
+  .payday-text h2 {
+    position: absolute;
+    top: 0;
+    right: 13.64px;
+    width: 166.29px;
+    height: 78.15px;
+    font-weight: 900;
+    font-size: 30px;
+    color: #000000;
+    line-height: 37px;
+  }
+  .payday-text .btn-shop-now-payday {
+    position: absolute;
+    bottom: 0;
+    left: 6.29px;
+    width: 71.72px;
+    height: 25.79px;
+    border-radius: 2.2px;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    font-weight: 600;
+    font-size: 7.55px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+  .playday-p1 {
+    position: absolute;
+    top: 18px;
+    left: 6.29px;
+    width: 173.64px;
+    height: 24.54px;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 14.16px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+  .playday-p2 {
+    position: absolute;
+    top: 122px;
+    left: 6.29px;
+    width: 116px;
+    height: 10.38px;
+    font-weight: 700;
+    font-size: 9.75px;
+    line-height: 14.16px;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  .playday-p3 {
+    position: absolute;
+    top: 137.43;
+    left: 6.29px;
+    width: 133px;
+    height: 10.38px;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 14.16px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+  .payday-bg-white {
+    position: absolute;
+    top: 0;
+    left: -6.29px;
+    width: 146.19px;
+    height: 35.28px;
+    rotate: -2deg;
+    background-color: white;
+  }
+}
 .Favourites {
   position: absolute;
   top: 3649px;
@@ -618,6 +779,87 @@ body .explore-now {
   border-radius: 20px;
 }
 
+@media screen and (max-width: 519px) {
+  .Favourites {
+    position: absolute;
+    top: 343.63px;
+    left: 28.14px;
+    width: 443.2px;
+    height: 229.18px;
+  }
+  .Favourites-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 134px;
+    height: 17px;
+  }
+  .Favourites-cards {
+    display: flex;
+    margin-top: 45.46px;
+    width: 100%;
+    height: 183.52px;
+    gap: 15.96px;
+  }
+  .Favourites-cards-img {
+    width: 100%;
+    height: 155.58px;
+    border-radius: 10px;
+  }
+  .trending {
+    width: 202.93px;
+    height: 100%;
+  }
+  .explore-now-trending {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20.56px;
+    margin-top: 7.58px;
+  }
+  .trending-text {
+    width: 93.35px;
+    height: 100%;
+  }
+  .trending-text h2 {
+    width: 100%;
+    height: 9.74px;
+  }
+  .trending-text p {
+    width: 30.3px;
+    height: 8.93px;
+  }
+  .under {
+    width: 202.93px;
+    height: 100%;
+  }
+  .explore-now-under {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20.36px;
+    margin-top: 7.58px;
+  }
+  .under-text {
+    width: 54.11px;
+    height: 100%;
+  }
+  .under-text h2 {
+    width: 100%;
+    height: 9.47px;
+  }
+  .under-text p {
+    width: 39px;
+    height: 9px;
+  }
+  .favourite-cards-img {
+    width: 100%;
+    height: 155.58px;
+    border-radius: 10px;
+  }
+}
 .voucher {
   display: flex;
   position: absolute;
@@ -676,7 +918,7 @@ body .explore-now {
   position: absolute;
   top: -22.5px;
   right: 118px;
-  width: 3272.5x;
+  width: 372.5x;
   height: 755px;
   border: 22.58px solid #c2c8da;
   box-shadow: 0px 4px 63px rgba(0, 0, 0, 0.25);
@@ -746,6 +988,124 @@ body .explore-now {
   border-radius: 50%;
 }
 
+@media screen and (max-width: 519px) {
+  .voucher {
+    display: flex;
+    position: absolute;
+    top: 628px;
+    left: 60.34px;
+    width: 417.75px;
+    height: 200px;
+  }
+  .voucher-content {
+    position: absolute;
+    top: 53.31px;
+    left: 0;
+    width: 133.12px;
+    height: 93.89px;
+  }
+  .voucher-content-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 57.09px;
+  }
+  .voucher-content-text h2 {
+    width: 100%;
+    height: 29.49px;
+    font-weight: 900;
+    font-size: 13px;
+    color: #000000;
+    line-height: 16.23px;
+    letter-spacing: 0.04em;
+  }
+  .voucher-content-text p {
+    width: 113.37px;
+    height: 16.5px;
+    font-weight: 500;
+    font-size: 6.49pxpx;
+    color: #7c7c7c;
+    line-height: 9.47px;
+    letter-spacing: -0.04em;
+    margin-top: 11.09px;
+  }
+  .voucher-apps {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 115.54px;
+    height: 19.21px;
+    gap: 5.14px;
+  }
+  .app-match {
+    position: absolute;
+    top: -3.66px;
+    right: 38.24px;
+    width: 96px;
+    height: 203.66px;
+    border: 3.66px solid #c2c8da;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 9.85px;
+    z-index: 1;
+  }
+  .circle1 {
+    width: 5.95px;
+    height: 6.49px;
+    position: absolute;
+    top: 19.22px;
+    left: 228.9px;
+  }
+  .circle2 {
+    width: 13.53px;
+    height: 13.53px;
+    position: absolute;
+    top: 15.16px;
+    left: 381.76;
+  }
+  .circle3 {
+    width: 9.2px;
+    height: 9.2px;
+    position: absolute;
+    top: 185.35px;
+    left: 219.7px;
+  }
+  .circle4 {
+    width: 4.6px;
+    height: 4.6px;
+    position: absolute;
+    top: 163.97px;
+    left: 396.66px;
+  }
+  .circles-small {
+    position: absolute;
+    top: 37px;
+    left: 254.38px;
+    width: 124.56px;
+    height: 123px;
+    border: 0.49px solid #efeceb;
+    border-radius: 50%;
+  }
+  .circles-medium {
+    position: absolute;
+    top: 26px;
+    left: 240.66px;
+    width: 149px;
+    height: 147.13px;
+    border: 0.58px solid #efeceb;
+    border-radius: 50%;
+  }
+  .circles-large {
+    position: absolute;
+    top: 15.16px;
+    left: 228.9px;
+    width: 172.36px;
+    height: 170.19px;
+    border: 0.68px solid #efeceb;
+    border-radius: 50%;
+  }
+}
 .community {
   position: absolute;
   top: 5646px;
@@ -813,6 +1173,72 @@ body .explore-now {
   font-size: 24px;
 }
 
+@media screen and (max-width: 519px) {
+  .community {
+    position: absolute;
+    top: 5646px;
+    left: 0;
+    width: 1920px;
+    height: 623px;
+    background-color: #e5c643;
+  }
+  .community h2 {
+    margin-top: 141px;
+    margin-left: 477px;
+    width: 966px;
+    height: 124px;
+    font-weight: 900;
+    font-size: 55px;
+    color: white;
+    line-height: 70px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  .community p {
+    margin-top: 37px;
+    margin-left: 455px;
+    width: 1010px;
+    height: 29px;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fffcf8;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  .add-email {
+    margin-top: 49px;
+    margin-left: 673px;
+    width: 574px;
+    height: 87px;
+    background-color: white;
+  }
+  .add-email .add-email-here {
+    width: 269px;
+    height: 25px;
+    margin: 27px 107px 35px 27px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #767676;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+    border: none;
+  }
+  .add-email-btn {
+    position: absolute;
+    top: 390px;
+    right: 683px;
+    width: 161px;
+    height: 67px;
+    border-radius: 8px;
+    padding: 17px 35px 15px 38px;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+  }
+}
 .footer {
   position: absolute;
   top: 6269px;
@@ -916,4 +1342,100 @@ td {
 .legal-list {
   width: 217px;
   height: 149px;
+}
+
+@media screen and (max-width: 519px) {
+  .footer {
+    position: absolute;
+    top: 6269px;
+    left: 0;
+    width: 1920px;
+    height: 545px;
+    background-color: #000000;
+  }
+  .footer-containter {
+    margin-top: 119px;
+    margin-left: 100px;
+    width: 1720px;
+    height: 279px;
+  }
+  .fashion {
+    width: 415px;
+    height: 248px;
+    gap: 32px;
+  }
+  .fashion h2 {
+    width: 192px;
+    height: 52px;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+  }
+  .fashion p {
+    font-family: "Roboto", sans-serif;
+    width: 415px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #8e8e8e;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+  }
+  .icons {
+    display: flex;
+    width: 250px;
+    height: 52px;
+    margin-left: 0;
+    margin-bottom: 0;
+    gap: 14px;
+    margin-top: 32px;
+  }
+  .icons img {
+    width: 52px;
+    height: 100%;
+  }
+  .footer-list {
+    position: absolute;
+    top: 125px;
+    right: 100px;
+    display: flex;
+    width: 890px;
+    height: 273px;
+    gap: 188px;
+  }
+  thead {
+    color: #d9d9d9;
+  }
+  tbody {
+    color: #7a7a7a;
+  }
+  tbody td {
+    margin-top: 20px;
+  }
+  tr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  td {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+  }
+  .company-list {
+    width: 120px;
+    height: 100%;
+  }
+  .quick-Link-list {
+    width: 177px;
+    height: 100%;
+  }
+  .legal-list {
+    width: 217px;
+    height: 149px;
+  }
 }/*# sourceMappingURL=main.css.map */
