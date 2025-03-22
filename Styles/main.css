@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +22,7 @@ body {
   position: relative;
   width: 1920px;
   height: 6814px;
-  background-color: #fff;
+  background-color: white;
   font-family: "Poppins", sans-serif;
 }
 body .arrow {
@@ -34,14 +35,14 @@ body .card-h2 {
   font-size: 32px;
   line-height: 50px;
   letter-spacing: -0.04em;
-  color: #191919;
+  color: #191818;
 }
 body .explore-now {
   font-weight: 500;
   font-size: 24px;
   line-height: 50px;
   letter-spacing: -0.04em;
-  color: #7f7f7f;
+  color: #7a7a7a;
   margin-top: 7px;
 }
 
@@ -83,18 +84,18 @@ body .explore-now {
   color: #242323;
 }
 .li-btn ul li a {
-  color: black;
+  color: #000000;
 }
 
 .btn-sing-up {
   width: 134px;
   height: 62px;
   border-radius: 7px;
-  cursor: pointer;
-  background-color: black;
-  color: #fff;
+  background-color: #000000;
+  color: white;
   font-weight: 500;
   font-size: 24px;
+  cursor: pointer;
 }
 
 .section-unique {
@@ -122,7 +123,7 @@ body .explore-now {
   height: 473px;
   font-weight: 900;
   font-size: 96px;
-  color: #000;
+  color: #000000;
   line-height: 120px;
 }
 .container-unique-clothes p {
@@ -145,8 +146,8 @@ body .explore-now {
   height: 82px;
   border-radius: 10px;
   cursor: pointer;
-  background-color: black;
-  color: #fff;
+  background-color: #000000;
+  color: white;
   font-weight: 500;
   font-size: 30px;
   line-height: 100%;
@@ -201,7 +202,7 @@ body .explore-now {
   width: 465px;
   height: 112px;
   rotate: -2deg;
-  background-color: #fff;
+  background-color: white;
 }
 
 .unique-bg-gold {
@@ -458,7 +459,7 @@ body .explore-now {
   height: 287px;
   font-weight: 900;
   font-size: 112px;
-  color: #000;
+  color: #000000;
   line-height: 137px;
 }
 .payday-text .btn-shop-now-payday {
@@ -469,8 +470,8 @@ body .explore-now {
   height: 96px;
   border-radius: 8px;
   cursor: pointer;
-  background-color: black;
-  color: #fff;
+  background-color: #000000;
+  color: white;
   font-weight: 600;
   font-size: 28px;
   line-height: 100%;
@@ -524,7 +525,7 @@ body .explore-now {
   width: 542px;
   height: 130px;
   rotate: -2deg;
-  background-color: #fff;
+  background-color: white;
 }
 
 .Favourites {
@@ -646,7 +647,7 @@ body .explore-now {
   height: 144px;
   font-weight: 900;
   font-size: 48px;
-  color: #000;
+  color: #000000;
   line-height: 150%;
   letter-spacing: 0.04em;
 }
@@ -679,7 +680,7 @@ body .explore-now {
   height: 755px;
   border: 22.58px solid #c2c8da;
   box-shadow: 0px 4px 63px rgba(0, 0, 0, 0.25);
-  border-radius: 34.9754px;
+  border-radius: 35px;
   z-index: 1;
 }
 
@@ -743,4 +744,176 @@ body .explore-now {
   height: 629px;
   border: 2.5px solid #efeceb;
   border-radius: 50%;
+}
+
+.community {
+  position: absolute;
+  top: 5646px;
+  left: 0;
+  width: 1920px;
+  height: 623px;
+  background-color: #e5c643;
+}
+.community h2 {
+  margin-top: 141px;
+  margin-left: 477px;
+  width: 966px;
+  height: 124px;
+  font-weight: 900;
+  font-size: 55px;
+  color: white;
+  line-height: 70px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.community p {
+  margin-top: 37px;
+  margin-left: 455px;
+  width: 1010px;
+  height: 29px;
+  font-weight: 400;
+  font-size: 32px;
+  color: #fffcf8;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.add-email {
+  margin-top: 49px;
+  margin-left: 673px;
+  width: 574px;
+  height: 87px;
+  background-color: white;
+}
+.add-email .add-email-here {
+  width: 269px;
+  height: 25px;
+  margin: 27px 107px 35px 27px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #767676;
+  line-height: 35px;
+  letter-spacing: 0.03em;
+  border: none;
+}
+
+.add-email-btn {
+  position: absolute;
+  top: 390px;
+  right: 683px;
+  width: 161px;
+  height: 67px;
+  border-radius: 8px;
+  padding: 17px 35px 15px 38px;
+  cursor: pointer;
+  background-color: #000000;
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.footer {
+  position: absolute;
+  top: 6269px;
+  left: 0;
+  width: 1920px;
+  height: 545px;
+  background-color: #000000;
+}
+
+.footer-containter {
+  margin-top: 119px;
+  margin-left: 100px;
+  width: 1720px;
+  height: 279px;
+}
+
+.fashion {
+  width: 415px;
+  height: 248px;
+  gap: 32px;
+}
+.fashion h2 {
+  width: 192px;
+  height: 52px;
+  font-weight: 900;
+  font-size: 40px;
+  color: white;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+}
+.fashion p {
+  font-family: "Roboto", sans-serif;
+  width: 415px;
+  height: 80px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #8e8e8e;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+}
+
+.icons {
+  display: flex;
+  width: 250px;
+  height: 52px;
+  margin-left: 0;
+  margin-bottom: 0;
+  gap: 14px;
+  margin-top: 32px;
+}
+.icons img {
+  width: 52px;
+  height: 100%;
+}
+
+.footer-list {
+  position: absolute;
+  top: 125px;
+  right: 100px;
+  display: flex;
+  width: 890px;
+  height: 273px;
+  gap: 188px;
+}
+
+thead {
+  color: #d9d9d9;
+}
+
+tbody {
+  color: #7a7a7a;
+}
+tbody td {
+  margin-top: 20px;
+}
+
+tr {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+td {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+}
+
+.company-list {
+  width: 120px;
+  height: 100%;
+}
+
+.quick-Link-list {
+  width: 177px;
+  height: 100%;
+}
+
+.legal-list {
+  width: 217px;
+  height: 149px;
 }/*# sourceMappingURL=main.css.map */
