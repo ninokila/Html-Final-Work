@@ -6,6 +6,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+// Body
+
 body {
   position: relative;
   width: $sz1920;
@@ -26,27 +28,52 @@ body {
   }
 }
 
-//responsive - max-width 519.5px
+//Responsive Body - max-width 519px
 
-@media screen and (max-width: 519px) {
+// @media screen and (max-width: 519px) {
+//   body {
+//     position: relative;
+//     width: $sz519;
+//     height: 1200px;
+//     background-color: $white;
+//     font-family: $font-primary;
+//     padding-left: 1080px;
+
+//     & .arrow {
+//       @include arrow-519;
+//     }
+
+//     & .card-h2 {
+//       @include card-h2-519;
+//     }
+
+//     & .explore-now {
+//       @include explore-now-519;
+//     }
+//   }
+// }
+
+//Responsive Body - max-width 912px
+
+@media screen and (max-width: 912px) {
   body {
     position: relative;
-    width: 519px;
-    height: 1200px;
+    width: $sz912;
+    height: 1160.9px;
     background-color: $white;
     font-family: $font-primary;
-    padding-left: 1080px;
+    padding-left: $sz41;
 
     & .arrow {
-      @include arrow-519;
+      @include arrow-912;
     }
 
     & .card-h2 {
-      @include card-h2-519;
+      @include card-h2-912;
     }
 
     & .explore-now {
-      @include explore-now-519;
+      @include explore-now-912;
     }
   }
 }
@@ -95,14 +122,75 @@ body {
 }
 
 .btn-sing-up {
-  width: 134px;
+  width: $sz134;
   height: $sz62;
   border-radius: $sz7;
   background-color: $black;
   color: $white;
   font-weight: 500;
   font-size: $sz24;
+  line-height: 100%;
+  letter-spacing: $em-03;
   cursor: pointer;
+}
+
+//Responsive Header - max-width 912px
+
+@media screen and (max-width: 912px) {
+  .Header {
+    position: absolute;
+    top: $sz23;
+    left: $sz48;
+    width: 817.58px;
+    height: $sz30;
+
+    & img {
+      width: 113.5px;
+      height: $sz29;
+      margin-left: 0;
+    }
+  }
+
+  .li-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 407.08px;
+    height: $sz30;
+  }
+
+  .li-btn ul {
+    @include flex-between;
+    width: 307.08px;
+    height: 17.1px;
+    margin: 6.45px $sz30 6.45px 0;
+
+    & li {
+      font-weight: 500;
+      font-size: 10.45px;
+      line-height: 100%;
+      letter-spacing: 0.01em;
+      color: $black-lightest;
+
+      & a {
+        color: $black;
+      }
+    }
+  }
+
+  .btn-sing-up {
+    width: $sz70;
+    height: $sz30;
+    border-radius: $sz3;
+    background-color: $black;
+    color: $white;
+    font-weight: 500;
+    font-size: 11.4px;
+    line-height: 100%;
+    letter-spacing: $em-03;
+    cursor: pointer;
+  }
 }
 
 //section - Unique
@@ -155,14 +243,14 @@ body {
     left: $sz125;
     width: 221px;
     height: $sz82;
-    border-radius: 10px;
+    border-radius: $sz10;
     cursor: pointer;
     background-color: $black;
     color: $white;
     font-weight: 500;
-    font-size: 30px;
+    font-size: $sz30;
     line-height: 100%;
-    letter-spacing: -0.05em;
+    letter-spacing: $em-05;
   }
 }
 
@@ -179,33 +267,48 @@ body {
   }
 }
 
-.gray-star {
-  width: $sz58;
-  height: 56px;
-}
-
 .gray-star1 {
   position: absolute;
   top: $sz68;
   left: 748px;
+
+  & img {
+    width: $sz58;
+    height: 56px;
+  }
 }
 
 .gray-star2 {
   position: absolute;
   top: $sz104;
   left: 1424px;
+
+  & img {
+    width: $sz58;
+    height: 56px;
+  }
 }
 
 .gray-star3 {
   position: absolute;
   top: 762px;
   left: 791px;
+
+  & img {
+    width: $sz58;
+    height: 56px;
+  }
 }
 
 .gray-star4 {
   position: absolute;
   top: $sz704;
   left: 1579px;
+
+  & img {
+    width: $sz58;
+    height: 56px;
+  }
 }
 
 .unique-bg-white {
@@ -228,7 +331,147 @@ body {
   background-color: $gold-light;
 }
 
-//section - Brands
+//Responsive Unique - max-width 912px
+
+@media screen and (max-width: 912px) {
+  .section-unique {
+    position: absolute;
+    top: $sz23;
+    left: $sz46;
+    width: $sz817;
+    height: $sz912;
+  }
+
+  .container-unique-clothes {
+    position: absolute;
+    top: 54.9px;
+    left: 0;
+    width: $sz817;
+    height: 404.7px;
+    border-radius: $sz25;
+    background-color: $white-darkest;
+
+    & h1 {
+      position: absolute;
+      top: 36.57px;
+      left: 56.53px;
+      width: 225.15px;
+      height: 224.68px;
+      font-weight: 900;
+      font-size: 45.6px;
+      color: $black;
+      line-height: 57px;
+    }
+
+    p {
+      position: absolute;
+      top: 280.25px;
+      left: 56.53px;
+      width: 287.85px;
+      height: 27.55px;
+      font-weight: 400;
+      font-size: 15.2px;
+      line-height: 100%;
+      color: $black-lighter;
+      letter-spacing: $em-05;
+    }
+
+    .btn-shop-now {
+      position: absolute;
+      top: 323px;
+      left: 59.38px;
+      width: 104.97px;
+      height: 38.95px;
+      border-radius: 4.75px;
+      cursor: pointer;
+      background-color: $black;
+      color: $white;
+      font-weight: 500;
+      font-size: 14.25px;
+      line-height: 100%;
+      letter-spacing: $em-05;
+    }
+  }
+
+  .unique-img {
+    position: absolute;
+    top: 28.1px;
+    right: 19.5px;
+    width: 422px;
+    height: 423px;
+
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .gray-star1 {
+    position: absolute;
+    top: 32.1px;
+    left: 354.5px;
+
+    & img {
+      width: 27.55px;
+      height: 26.61px;
+    }
+  }
+
+  .gray-star2 {
+    position: absolute;
+    top: 23.1px;
+    left: 651.5px;
+
+    & img {
+      width: 27.55px;
+      height: 26.61px;
+    }
+  }
+
+  .gray-star3 {
+    position: absolute;
+    top: 355.1px;
+    left: 368.5px;
+
+    & img {
+      width: 27.55px;
+      height: 26.61px;
+    }
+  }
+
+  .gray-star4 {
+    position: absolute;
+    top: 329.1px;
+    left: 754.5px;
+
+    & img {
+      width: 27.55px;
+      height: 26.61px;
+    }
+  }
+
+  .unique-bg-white {
+    position: absolute;
+    top: 36.57px;
+    left: 38.95px;
+    width: 220.75px;
+    height: 53.27px;
+    rotate: $szdeg;
+    background-color: $white;
+  }
+
+  .unique-bg-gold {
+    position: absolute;
+    top: 147.27px;
+    left: 44.42px;
+    width: 235.5px;
+    height: 55.84px;
+    rotate: $szdeg;
+    background-color: $gold-light;
+  }
+}
+
+//Section - Brands
 
 .brand {
   position: absolute;
@@ -258,13 +501,11 @@ body {
   width: 150px;
   height: $sz52;
   mix-blend-mode: multiply;
-  margin-top: 9px;
 }
 
 .shopify {
   width: 176px;
   height: $sz62;
-  margin-top: $sz4;
   mix-blend-mode: multiply;
 }
 
@@ -283,16 +524,75 @@ body {
 .amazon {
   width: 166px;
   height: $sz63;
-  margin-top: 3.5px;
   mix-blend-mode: multiply;
 }
 
-//section - New Arrivals
+//Responsive Brands - max-width 912px
+
+@media screen and (max-width: 912px) {
+  .brand {
+    position: absolute;
+    top: $sz519;
+    left: 0;
+    width: $sz912;
+    height: 82px;
+    background-color: $gold-light;
+  }
+
+  .brand-logos {
+    @include flex-between;
+    position: absolute;
+    top: 22.5px;
+    left: 81.23px;
+    width: 749.2px;
+    height: 33.57px;
+  }
+
+  .hm {
+    width: 56.17px;
+    height: 33.02px;
+    mix-blend-mode: darken;
+  }
+
+  .obey {
+    width: 71.25px;
+    height: 25.02px;
+    mix-blend-mode: multiply;
+  }
+
+  .shopify {
+    width: 83.6px;
+    height: 29.36px;
+    mix-blend-mode: multiply;
+  }
+
+  .lacoste {
+    width: 111.63px;
+    height: 33.23px;
+    mix-blend-mode: multiply;
+  }
+
+  .levis {
+    width: 60.32px;
+    height: 33.57px;
+    mix-blend-mode: multiply;
+  }
+
+  .amazon {
+    width: 78.85px;
+    height: 29.92px;
+    mix-blend-mode: multiply;
+  }
+}
+
+//Section - New Arrivals
+
 .new-arrivals {
   position: absolute;
   top: 1334px;
   left: $sz104;
   width: 1714px;
+  height: 967px;
 }
 
 .new-arrivals-logo {
@@ -397,7 +697,124 @@ body {
   }
 }
 
-//section - Payday
+//Responsive New Arrival - max-width 912px
+
+@media screen and (max-width: 912px) {
+  .new-arrivals {
+    position: absolute;
+    top: 633.65px;
+    left: 49.4px;
+    width: 816px;
+    height: 459.5px;
+  }
+
+  .new-arrivals-logo {
+    @include position-0;
+    width: 191px;
+    height: $sz24;
+  }
+  .new-arrivals-cards {
+    display: flex;
+    margin-top: 75.35px;
+    width: 100%;
+    height: 384.13px;
+    gap: $sz48;
+  }
+
+  .new-arrivals-cards-img {
+    width: 100%;
+    height: 334.4px;
+    border-radius: $sz10;
+  }
+
+  .hoodies {
+    width: 229.9px;
+    height: 100%;
+  }
+
+  .coats {
+    margin-bottom: 1.95px;
+    width: 229.9px;
+    height: 382.17px;
+  }
+
+  .tees {
+    margin-bottom: 2.43px;
+    width: 232.75px;
+    height: 381.7px;
+  }
+
+  .explore-now-hoodies {
+    @include flex-between;
+    width: 225.68px;
+    height: 36.42px;
+    margin-top: 13.3px;
+    margin-right: 4.22px;
+  }
+
+  .hoodies-text {
+    width: 152.48px;
+    height: 100%;
+
+    & h2 {
+      width: 100%;
+      height: 17.1px;
+    }
+
+    & p {
+      width: $sz70;
+      height: 16px;
+    }
+  }
+
+  .explore-now-coats {
+    @include flex-between;
+    width: 224.45px;
+    height: 35.42px;
+    margin-top: 12.35px;
+    margin-right: 5.45px;
+  }
+
+  .coats-text {
+    width: 109.25px;
+    height: 35.42px;
+
+    & h2 {
+      width: 100%;
+      height: 17.1px;
+    }
+
+    & p {
+      width: $sz68;
+      height: $sz15;
+    }
+  }
+
+  .explore-now-tees {
+    @include flex-between;
+    width: 226.47px;
+    height: 35.9px;
+    margin-top: 11.4px;
+    margin-right: 6.27px;
+  }
+
+  .tees-text {
+    width: 99.27px;
+    height: 35.9px;
+
+    & h2 {
+      width: 100%;
+      height: 17.58px;
+    }
+
+    & p {
+      width: $sz70;
+      height: $sz15;
+    }
+  }
+}
+
+//Section - Payday
 
 .section-payday {
   position: absolute;
@@ -418,33 +835,36 @@ body {
   }
 }
 
-.white-star {
-  width: $sz76;
-  height: $sz76;
-}
-
 .white-star1 {
   position: absolute;
   top: 152px;
   left: 136px;
+  width: $sz76;
+  height: $sz76;
 }
 
 .white-star2 {
   position: absolute;
   top: 84px;
   left: 765px;
+  width: $sz76;
+  height: $sz76;
 }
 
 .white-star3 {
   position: absolute;
   top: $sz490;
   left: 187px;
+  width: $sz76;
+  height: $sz76;
 }
 
 .white-star4 {
   position: absolute;
   top: 639px;
-  left: 817px;
+  left: $sz817;
+  width: $sz76;
+  height: $sz76;
 }
 
 .payday-content {
@@ -564,14 +984,14 @@ body {
   background-color: $white;
 }
 
-//responsive - payday
+//Responsive payday - max-width 519px
 
 @media screen and (max-width: 519px) {
   .section-payday {
     position: absolute;
     top: 30.3px;
     right: 0;
-    width: 519px;
+    width: $sz519;
     height: 261.92px;
   }
 
@@ -586,33 +1006,36 @@ body {
     }
   }
 
-  .white-star {
-    width: 20.57px;
-    height: 20.57px;
-  }
-
   .white-star1 {
     position: absolute;
     top: 41.09px;
     left: 36.82px;
+    width: 20.57px;
+    height: 20.57px;
   }
 
   .white-star2 {
     position: absolute;
     top: 22.73px;
     left: 206.72px;
+    width: 20.57px;
+    height: 20.57px;
   }
 
   .white-star3 {
     position: absolute;
     top: 132.58px;
     left: 50.6px;
+    width: 20.57px;
+    height: 20.57px;
   }
 
   .white-star4 {
     position: absolute;
     top: 172.9px;
     left: 220.52px;
+    width: 20.57px;
+    height: 20.57px;
   }
 
   .payday-content {
@@ -650,8 +1073,8 @@ body {
     position: absolute;
     top: 34.67px;
     left: 18.13px;
-    width: 166.29px;
-    height: 78.15px;
+    width: 179.93px;
+    height: 188.28px;
 
     & h2 {
       position: absolute;
@@ -660,9 +1083,9 @@ body {
       width: 166.29px;
       height: 78.15px;
       font-weight: 900;
-      font-size: 30px;
+      font-size: 30.2px;
       color: $black;
-      line-height: 37px;
+      line-height: 37.12px;
     }
 
     .btn-shop-now-payday {
@@ -685,12 +1108,12 @@ body {
 
   .playday-p1 {
     position: absolute;
-    top: 18px;
+    top: 82.5px;
     left: 6.29px;
     width: 173.64px;
     height: 24.54px;
     font-weight: 400;
-    font-size: 9px;
+    font-size: $sz9;
     line-height: 14.16px;
     letter-spacing: $em-02;
     color: $black;
@@ -698,9 +1121,9 @@ body {
 
   .playday-p2 {
     position: absolute;
-    top: 122px;
+    top: 122.05px;
     left: 6.29px;
-    width: 116px;
+    width: 116.08px;
     height: 10.38px;
     font-weight: 700;
     font-size: 9.75px;
@@ -713,10 +1136,10 @@ body {
     position: absolute;
     top: 137.43;
     left: 6.29px;
-    width: 133px;
+    width: 133.06px;
     height: 10.38px;
     font-weight: 400;
-    font-size: 9px;
+    font-size: $sz9;
     line-height: 14.16px;
     letter-spacing: $em-02;
     color: $black;
@@ -733,7 +1156,7 @@ body {
   }
 }
 
-//section - Favourites
+//Section - Favourites
 .Favourites {
   position: absolute;
   top: 3649px;
@@ -801,7 +1224,7 @@ body {
 }
 
 .under-text {
-  width: 200px;
+  width: $sz200;
   height: 100%;
 
   & h2 {
@@ -821,7 +1244,7 @@ body {
   border-radius: $sz20;
 }
 
-// responsive - favourite
+//Responsive Favourite - max-width 519px
 
 @media screen and (max-width: 519px) {
   .Favourites {
@@ -830,37 +1253,39 @@ body {
     left: 28.14px;
     width: 443.2px;
     height: 229.18px;
+    background-color: #dfc23e;
   }
 
   .Favourites-logo {
     @include position-0;
-    width: 134px;
-    height: 17px;
+    width: $sz134;
+    height: $sz17;
   }
   .Favourites-cards {
     display: flex;
     margin-top: 45.46px;
     width: 100%;
     height: 183.52px;
-    gap: 15.96px;
+    gap: 37.32px;
   }
 
   .Favourites-cards-img {
     width: 100%;
     height: 155.58px;
-    border-radius: 10px;
+    border-radius: $sz10;
   }
 
   .trending {
     width: 202.93px;
-    height: 100%;
+    height: 183.72px;
+    gap: 7.58px;
   }
 
   .explore-now-trending {
     @include flex-between;
     width: 100%;
     height: 20.56px;
-    margin-top: 7.58px;
+    margin-top: 0;
   }
 
   .trending-text {
@@ -869,25 +1294,26 @@ body {
 
     & h2 {
       width: 100%;
-      height: 9.74px;
+      height: 9.47px;
     }
 
     & p {
-      width: 30.3px;
-      height: 8.93px;
+      width: $sz39;
+      height: $sz9;
     }
   }
 
   .under {
     width: 202.93px;
-    height: 100%;
+    height: 183.72px;
+    gap: 7.58px;
   }
 
   .explore-now-under {
     @include flex-between;
     width: 100%;
-    height: 20.36px;
-    margin-top: 7.58px;
+    height: 20.56px;
+    margin-top: 0;
   }
 
   .under-text {
@@ -900,19 +1326,19 @@ body {
     }
 
     & p {
-      width: 39px;
-      height: 9px;
+      width: $sz39;
+      height: $sz9;
     }
   }
 
   .favourite-cards-img {
     width: 100%;
     height: 155.58px;
-    border-radius: 10px;
+    border-radius: $sz10;
   }
 }
 
-//section -Voucher
+//Section -Voucher
 
 .voucher {
   display: flex;
@@ -940,7 +1366,7 @@ body {
     width: 100%;
     height: 144px;
     font-weight: 900;
-    font-size: 48px;
+    font-size: $sz48;
     color: $black;
     line-height: 150%;
     letter-spacing: 0.04em;
@@ -954,7 +1380,7 @@ body {
     color: $gray;
     line-height: $sz35;
     letter-spacing: $em-04;
-    margin-top: 41px;
+    margin-top: $sz41;
   }
 }
 
@@ -981,35 +1407,47 @@ body {
 }
 
 .circle1 {
-  width: $sz22;
-  height: $sz24;
   position: absolute;
   top: $sz55;
   left: $sz846;
+
+  & img {
+    width: $sz22;
+    height: $sz24;
+  }
 }
 
 .circle2 {
-  width: $sz50;
-  height: $sz50;
   position: absolute;
   top: $sz40;
   left: 1411px;
+
+  & img {
+    width: $sz50;
+    height: $sz50;
+  }
 }
 
 .circle3 {
-  width: $sz34;
-  height: $sz34;
   position: absolute;
   top: 669px;
   left: 812px;
+
+  & img {
+    width: $sz34;
+    height: $sz34;
+  }
 }
 
 .circle4 {
-  width: $sz17;
-  height: $sz17;
   position: absolute;
   top: $sz590;
   left: 1466px;
+
+  & img {
+    width: $sz17;
+    height: $sz17;
+  }
 }
 
 .circles-small {
@@ -1042,7 +1480,7 @@ body {
   border-radius: 50%;
 }
 
-// responsive - Voucher
+//Responsive Voucher - max-width 519px
 
 @media screen and (max-width: 519px) {
   .voucher {
@@ -1050,8 +1488,8 @@ body {
     position: absolute;
     top: 628px;
     left: 60.34px;
-    width: 417.75px;
-    height: 200px;
+    width: 402px;
+    height: $sz200;
   }
 
   .voucher-content {
@@ -1071,17 +1509,17 @@ body {
       width: 100%;
       height: 29.49px;
       font-weight: 900;
-      font-size: 13px;
+      font-size: $sz13;
       color: $black;
       line-height: 16.23px;
-      letter-spacing: 0.04em;
+      letter-spacing: $em03;
     }
 
     & p {
       width: 113.37px;
       height: 16.5px;
       font-weight: 500;
-      font-size: 6.49pxpx;
+      font-size: 6.49px;
       color: $gray;
       line-height: 9.47px;
       letter-spacing: $em-04;
@@ -1102,9 +1540,9 @@ body {
   .app-match {
     position: absolute;
     top: -3.66px;
-    right: 38.24px;
-    width: 96px;
-    height: 203.66px;
+    right: 34.58px;
+    width: 99.68px;
+    height: 207.32px;
     border: 3.66px solid $blue;
     box-shadow: 0px $sz4 12px rgba(0, 0, 0, 0.1);
     border-radius: 9.85px;
@@ -1112,35 +1550,47 @@ body {
   }
 
   .circle1 {
-    width: 5.95px;
-    height: 6.49px;
     position: absolute;
     top: 19.22px;
     left: 228.9px;
+
+    & img {
+      width: 5.95px;
+      height: 6.49px;
+    }
   }
 
   .circle2 {
-    width: 13.53px;
-    height: 13.53px;
     position: absolute;
     top: 15.16px;
-    left: 381.76;
+    left: 381.76px;
+
+    & img {
+      width: 13.53px;
+      height: 13.53px;
+    }
   }
 
   .circle3 {
-    width: 9.2px;
-    height: 9.2px;
     position: absolute;
     top: 185.35px;
     left: 219.7px;
+
+    & img {
+      width: 9.2px;
+      height: 9.2px;
+    }
   }
 
   .circle4 {
-    width: 4.6px;
-    height: 4.6px;
     position: absolute;
     top: 163.97px;
     left: 396.66px;
+
+    & img {
+      width: 4.6px;
+      height: 4.6px;
+    }
   }
 
   .circles-small {
@@ -1201,7 +1651,7 @@ body {
     margin-top: $sz37;
     margin-left: 455px;
     width: 1010px;
-    height: 29px;
+    height: $sz29;
     font-weight: 400;
     font-size: $sz32;
     color: $white-darker;
@@ -1212,15 +1662,17 @@ body {
 }
 
 .add-email {
+  @include flex-between;
   margin-top: 49px;
   margin-left: 673px;
   width: 574px;
   height: 87px;
   background-color: $white;
+  border-radius: $sz10;
 
   & .add-email-here {
     width: 269px;
-    height: 25px;
+    height: $sz25;
     margin: $sz27 107px $sz35 $sz27;
     font-weight: 400;
     font-size: $sz24;
@@ -1238,67 +1690,71 @@ body {
   width: 161px;
   height: $sz67;
   border-radius: $sz8;
-  padding: $sz17 $sz35 15px $sz38;
+  padding: $sz17 $sz35 $sz15 $sz38;
   cursor: pointer;
   background-color: $black;
   color: $white;
   font-weight: 500;
   font-size: $sz24;
+  line-height: $sz35;
+  letter-spacing: $em03;
 }
 
-// responsive - community
+//Responsive community - max-width 519px
 
 @media screen and (max-width: 519px) {
   .community {
     position: absolute;
-    top: 5646px;
+    top: 883.97px;
     left: 0;
-    width: $sz1920;
-    height: 623px;
+    width: $sz519;
+    height: 168.57px;
     background-color: $gold-medium;
 
     & h2 {
-      margin-top: 141px;
-      margin-left: 477px;
-      width: 966px;
-      height: 124px;
+      margin-top: 38.03px;
+      margin-left: 138.92px;
+      width: 285px;
+      height: $sz38;
       font-weight: 900;
-      font-size: $sz55;
+      font-size: 14.88px;
       color: $white;
-      line-height: $sz70;
+      line-height: 18.94px;
       letter-spacing: $em03;
       text-align: center;
     }
 
     & p {
-      margin-top: $sz37;
-      margin-left: 455px;
-      width: 1010px;
-      height: 29px;
+      margin-top: 5.68px;
+      margin-left: 144.92px;
+      width: 273.28px;
+      height: 7.85px;
       font-weight: 400;
-      font-size: $sz32;
-      color: $white-darker;
-      line-height: $sz35;
+      font-size: 8.66px;
+      color: $white;
+      line-height: 9.47px;
       letter-spacing: $em03;
       text-align: center;
     }
   }
 
   .add-email {
-    margin-top: 49px;
-    margin-left: 673px;
-    width: 574px;
-    height: 87px;
+    @include flex-between;
+    margin-top: 13.26px;
+    margin-left: 182.1px;
+    width: 155.31px;
+    height: 23.54px;
     background-color: $white;
+    border-radius: 4px;
 
     & .add-email-here {
-      width: 269px;
-      height: 25px;
-      margin: $sz27 107px $sz35 $sz27;
+      width: 72.78px;
+      height: 6.76px;
+      margin: 7.31px 28.95px 9.47px 7.31px;
       font-weight: 400;
-      font-size: $sz24;
+      font-size: 6.49px;
       color: $gray-darker;
-      line-height: $sz35;
+      line-height: 9.47px;
       letter-spacing: $em03;
       border: none;
     }
@@ -1306,17 +1762,19 @@ body {
 
   .add-email-btn {
     position: absolute;
-    top: 390px;
-    right: 683px;
-    width: 161px;
-    height: $sz67;
-    border-radius: $sz8;
-    padding: $sz17 $sz35 15px $sz38;
+    top: 105.52px;
+    right: 184px;
+    width: 43.56px;
+    height: 18.13px;
+    border-radius: 2.16px;
+    padding: 4.51px 10.78px 6.62px 10.78px;
     cursor: pointer;
     background-color: $black;
     color: $white;
     font-weight: 500;
-    font-size: $sz24;
+    font-size: $sz8;
+    line-height: 9.47px;
+    letter-spacing: $em03;
   }
 }
 
@@ -1382,7 +1840,7 @@ body {
 
 .footer-list {
   position: absolute;
-  top: $sz125;
+  top: $sz119;
   right: $sz100;
   display: flex;
   width: 890px;
@@ -1431,35 +1889,35 @@ td {
   height: 149px;
 }
 
-// responsive - footer
+//Responsive footer - max-width 519px
 
 @media screen and (max-width: 519px) {
   .footer {
     position: absolute;
-    top: 6269px;
+    top: 1052.54px;
     left: 0;
-    width: $sz1920;
-    height: 545px;
+    width: $sz519;
+    height: 147.46px;
     background-color: $black;
   }
 
   .footer-containter {
-    margin-top: $sz119;
-    margin-left: $sz100;
-    width: $sz1720;
-    height: 279px;
+    margin-top: 32.2px;
+    margin-left: 27.06px;
+    width: 465.39px;
+    height: 75.49px;
   }
 
   .fashion {
-    width: $sz415;
-    height: 248px;
-    gap: $sz32;
+    width: 112.29px;
+    height: 67.56px;
+    gap: 8.66px;
 
     & h2 {
-      width: 192px;
-      height: $sz52;
+      width: 51.95px;
+      height: 14.18px;
       font-weight: 900;
-      font-size: $sz40;
+      font-size: 10.82px;
       color: $white;
       line-height: 100%;
       letter-spacing: $em03;
@@ -1467,39 +1925,39 @@ td {
 
     & p {
       font-family: $font-secondary;
-      width: $sz415;
-      height: 80px;
+      width: 100%;
+      height: $sz22;
       font-weight: 400;
-      font-size: $sz24;
+      font-size: 6.49px;
       color: $gray-ligrter;
-      line-height: $sz40;
+      line-height: 10.82px;
       letter-spacing: $em02;
     }
   }
 
   .icons {
     display: flex;
-    width: 250px;
-    height: $sz52;
+    width: 67.64px;
+    height: 14.07px;
     margin-left: 0;
     margin-bottom: 0;
-    gap: 14px;
+    gap: 3.79px;
     margin-top: $sz32;
 
     & img {
-      width: $sz52;
+      width: 14.07px;
       height: 100%;
     }
   }
 
   .footer-list {
     position: absolute;
-    top: $sz125;
-    right: $sz100;
+    top: 33.82px;
+    right: 27.06px;
     display: flex;
-    width: 890px;
-    height: 273px;
-    gap: 188px;
+    width: 241px;
+    height: 73.87px;
+    gap: $sz46;
   }
 
   thead {
@@ -1510,36 +1968,30 @@ td {
     color: $gray-darkest;
 
     & td {
-      margin-top: $sz20;
+      margin-top: $sz9;
     }
-  }
-
-  tr {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   td {
     font-family: $font-secondary;
     font-weight: 400;
-    font-size: $sz23;
-    line-height: $sz40;
+    font-size: 6.49px;
+    line-height: 10.82px;
     letter-spacing: $em02;
   }
 
   .company-list {
-    width: $sz120;
+    width: 36px;
     height: 100%;
   }
 
   .quick-Link-list {
-    width: 177px;
+    width: 51px;
     height: 100%;
   }
 
   .legal-list {
-    width: 217px;
-    height: 149px;
+    width: 62px;
+    height: 40.32px;
   }
 }

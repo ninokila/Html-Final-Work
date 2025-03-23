@@ -46,34 +46,34 @@ body .explore-now {
   margin-top: 7px;
 }
 
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 912px) {
   body {
     position: relative;
-    width: 519px;
-    height: 1200px;
+    width: 912px;
+    height: 1160.9px;
     background-color: white;
     font-family: "Poppins", sans-serif;
-    padding-left: 1080px;
+    padding-left: 41px;
   }
   body .arrow {
-    width: 9px;
-    height: 5px;
-    margin-top: 10px;
+    width: 15.2px;
+    height: 12px;
+    margin-top: 18.21px;
   }
   body .card-h2 {
     font-weight: 500;
-    font-size: 8.5px;
-    line-height: 13.5px;
+    font-size: 15.2px;
+    line-height: 23.75px;
     letter-spacing: -0.04em;
-    color: #000000;
+    color: #191919;
   }
   body .explore-now {
     font-weight: 500;
-    font-size: 6.5px;
-    line-height: 13.5px;
+    font-size: 11.4px;
+    line-height: 23.75px;
     letter-spacing: -0.04em;
     color: #7a7a7a;
-    margin-top: 10px;
+    margin-top: 3.33px;
   }
 }
 .Header {
@@ -125,9 +125,63 @@ body .explore-now {
   color: white;
   font-weight: 500;
   font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
   cursor: pointer;
 }
 
+@media screen and (max-width: 912px) {
+  .Header {
+    position: absolute;
+    top: 23px;
+    left: 48px;
+    width: 817.58px;
+    height: 30px;
+  }
+  .Header img {
+    width: 113.5px;
+    height: 29px;
+    margin-left: 0;
+  }
+  .li-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 407.08px;
+    height: 30px;
+  }
+  .li-btn ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 307.08px;
+    height: 17.1px;
+    margin: 6.45px 30px 6.45px 0;
+  }
+  .li-btn ul li {
+    font-weight: 500;
+    font-size: 10.45px;
+    line-height: 100%;
+    letter-spacing: 0.01em;
+    color: #242323;
+  }
+  .li-btn ul li a {
+    color: #000000;
+  }
+  .btn-sing-up {
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #000000;
+    color: white;
+    font-weight: 500;
+    font-size: 11.4px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    cursor: pointer;
+  }
+}
 .section-unique {
   position: absolute;
   top: 46px;
@@ -196,15 +250,14 @@ body .explore-now {
   height: 100%;
 }
 
-.gray-star {
-  width: 58px;
-  height: 56px;
-}
-
 .gray-star1 {
   position: absolute;
   top: 68px;
   left: 748px;
+}
+.gray-star1 img {
+  width: 58px;
+  height: 56px;
 }
 
 .gray-star2 {
@@ -212,17 +265,29 @@ body .explore-now {
   top: 104px;
   left: 1424px;
 }
+.gray-star2 img {
+  width: 58px;
+  height: 56px;
+}
 
 .gray-star3 {
   position: absolute;
   top: 762px;
   left: 791px;
 }
+.gray-star3 img {
+  width: 58px;
+  height: 56px;
+}
 
 .gray-star4 {
   position: absolute;
   top: 704px;
   left: 1579px;
+}
+.gray-star4 img {
+  width: 58px;
+  height: 56px;
 }
 
 .unique-bg-white {
@@ -245,6 +310,127 @@ body .explore-now {
   background-color: #ebd96b;
 }
 
+@media screen and (max-width: 912px) {
+  .section-unique {
+    position: absolute;
+    top: 23px;
+    left: 46px;
+    width: 817px;
+    height: 912px;
+  }
+  .container-unique-clothes {
+    position: absolute;
+    top: 54.9px;
+    left: 0;
+    width: 817px;
+    height: 404.7px;
+    border-radius: 25px;
+    background-color: #f4f6f5;
+  }
+  .container-unique-clothes h1 {
+    position: absolute;
+    top: 36.57px;
+    left: 56.53px;
+    width: 225.15px;
+    height: 224.68px;
+    font-weight: 900;
+    font-size: 45.6px;
+    color: #000000;
+    line-height: 57px;
+  }
+  .container-unique-clothes p {
+    position: absolute;
+    top: 280.25px;
+    left: 56.53px;
+    width: 287.85px;
+    height: 27.55px;
+    font-weight: 400;
+    font-size: 15.2px;
+    line-height: 100%;
+    color: #191818;
+    letter-spacing: -0.05em;
+  }
+  .container-unique-clothes .btn-shop-now {
+    position: absolute;
+    top: 323px;
+    left: 59.38px;
+    width: 104.97px;
+    height: 38.95px;
+    border-radius: 4.75px;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    font-weight: 500;
+    font-size: 14.25px;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+  }
+  .unique-img {
+    position: absolute;
+    top: 28.1px;
+    right: 19.5px;
+    width: 422px;
+    height: 423px;
+  }
+  .unique-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .gray-star1 {
+    position: absolute;
+    top: 32.1px;
+    left: 354.5px;
+  }
+  .gray-star1 img {
+    width: 27.55px;
+    height: 26.61px;
+  }
+  .gray-star2 {
+    position: absolute;
+    top: 23.1px;
+    left: 651.5px;
+  }
+  .gray-star2 img {
+    width: 27.55px;
+    height: 26.61px;
+  }
+  .gray-star3 {
+    position: absolute;
+    top: 355.1px;
+    left: 368.5px;
+  }
+  .gray-star3 img {
+    width: 27.55px;
+    height: 26.61px;
+  }
+  .gray-star4 {
+    position: absolute;
+    top: 329.1px;
+    left: 754.5px;
+  }
+  .gray-star4 img {
+    width: 27.55px;
+    height: 26.61px;
+  }
+  .unique-bg-white {
+    position: absolute;
+    top: 36.57px;
+    left: 38.95px;
+    width: 220.75px;
+    height: 53.27px;
+    rotate: -2deg;
+    background-color: white;
+  }
+  .unique-bg-gold {
+    position: absolute;
+    top: 147.27px;
+    left: 44.42px;
+    width: 235.5px;
+    height: 55.84px;
+    rotate: -2deg;
+    background-color: #ebd96b;
+  }
+}
 .brand {
   position: absolute;
   top: 1079px;
@@ -275,13 +461,11 @@ body .explore-now {
   width: 150px;
   height: 52px;
   mix-blend-mode: multiply;
-  margin-top: 9px;
 }
 
 .shopify {
   width: 176px;
   height: 62px;
-  margin-top: 4px;
   mix-blend-mode: multiply;
 }
 
@@ -300,15 +484,65 @@ body .explore-now {
 .amazon {
   width: 166px;
   height: 63px;
-  margin-top: 3.5px;
   mix-blend-mode: multiply;
 }
 
+@media screen and (max-width: 912px) {
+  .brand {
+    position: absolute;
+    top: 519px;
+    left: 0;
+    width: 912px;
+    height: 82px;
+    background-color: #ebd96b;
+  }
+  .brand-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 22.5px;
+    left: 81.23px;
+    width: 749.2px;
+    height: 33.57px;
+  }
+  .hm {
+    width: 56.17px;
+    height: 33.02px;
+    mix-blend-mode: darken;
+  }
+  .obey {
+    width: 71.25px;
+    height: 25.02px;
+    mix-blend-mode: multiply;
+  }
+  .shopify {
+    width: 83.6px;
+    height: 29.36px;
+    mix-blend-mode: multiply;
+  }
+  .lacoste {
+    width: 111.63px;
+    height: 33.23px;
+    mix-blend-mode: multiply;
+  }
+  .levis {
+    width: 60.32px;
+    height: 33.57px;
+    mix-blend-mode: multiply;
+  }
+  .amazon {
+    width: 78.85px;
+    height: 29.92px;
+    mix-blend-mode: multiply;
+  }
+}
 .new-arrivals {
   position: absolute;
   top: 1334px;
   left: 104px;
   width: 1714px;
+  height: 967px;
 }
 
 .new-arrivals-logo {
@@ -416,6 +650,111 @@ body .explore-now {
   height: 32px;
 }
 
+@media screen and (max-width: 912px) {
+  .new-arrivals {
+    position: absolute;
+    top: 633.65px;
+    left: 49.4px;
+    width: 816px;
+    height: 459.5px;
+  }
+  .new-arrivals-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 191px;
+    height: 24px;
+  }
+  .new-arrivals-cards {
+    display: flex;
+    margin-top: 75.35px;
+    width: 100%;
+    height: 384.13px;
+    gap: 48px;
+  }
+  .new-arrivals-cards-img {
+    width: 100%;
+    height: 334.4px;
+    border-radius: 10px;
+  }
+  .hoodies {
+    width: 229.9px;
+    height: 100%;
+  }
+  .coats {
+    margin-bottom: 1.95px;
+    width: 229.9px;
+    height: 382.17px;
+  }
+  .tees {
+    margin-bottom: 2.43px;
+    width: 232.75px;
+    height: 381.7px;
+  }
+  .explore-now-hoodies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 225.68px;
+    height: 36.42px;
+    margin-top: 13.3px;
+    margin-right: 4.22px;
+  }
+  .hoodies-text {
+    width: 152.48px;
+    height: 100%;
+  }
+  .hoodies-text h2 {
+    width: 100%;
+    height: 17.1px;
+  }
+  .hoodies-text p {
+    width: 70px;
+    height: 16px;
+  }
+  .explore-now-coats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 224.45px;
+    height: 35.42px;
+    margin-top: 12.35px;
+    margin-right: 5.45px;
+  }
+  .coats-text {
+    width: 109.25px;
+    height: 35.42px;
+  }
+  .coats-text h2 {
+    width: 100%;
+    height: 17.1px;
+  }
+  .coats-text p {
+    width: 68px;
+    height: 15px;
+  }
+  .explore-now-tees {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 226.47px;
+    height: 35.9px;
+    margin-top: 11.4px;
+    margin-right: 6.27px;
+  }
+  .tees-text {
+    width: 99.27px;
+    height: 35.9px;
+  }
+  .tees-text h2 {
+    width: 100%;
+    height: 17.58px;
+  }
+  .tees-text p {
+    width: 70px;
+    height: 15px;
+  }
+}
 .section-payday {
   position: absolute;
   top: 2491px;
@@ -436,33 +775,36 @@ body .explore-now {
   height: 100%;
 }
 
-.white-star {
-  width: 76px;
-  height: 76px;
-}
-
 .white-star1 {
   position: absolute;
   top: 152px;
   left: 136px;
+  width: 76px;
+  height: 76px;
 }
 
 .white-star2 {
   position: absolute;
   top: 84px;
   left: 765px;
+  width: 76px;
+  height: 76px;
 }
 
 .white-star3 {
   position: absolute;
   top: 490px;
   left: 187px;
+  width: 76px;
+  height: 76px;
 }
 
 .white-star4 {
   position: absolute;
   top: 639px;
   left: 817px;
+  width: 76px;
+  height: 76px;
 }
 
 .payday-content {
@@ -577,29 +919,33 @@ body .explore-now {
     width: 100%;
     height: 100%;
   }
-  .white-star {
-    width: 20.57px;
-    height: 20.57px;
-  }
   .white-star1 {
     position: absolute;
     top: 41.09px;
     left: 36.82px;
+    width: 20.57px;
+    height: 20.57px;
   }
   .white-star2 {
     position: absolute;
     top: 22.73px;
     left: 206.72px;
+    width: 20.57px;
+    height: 20.57px;
   }
   .white-star3 {
     position: absolute;
     top: 132.58px;
     left: 50.6px;
+    width: 20.57px;
+    height: 20.57px;
   }
   .white-star4 {
     position: absolute;
     top: 172.9px;
     left: 220.52px;
+    width: 20.57px;
+    height: 20.57px;
   }
   .payday-content {
     position: absolute;
@@ -613,8 +959,8 @@ body .explore-now {
     position: absolute;
     top: 34.67px;
     left: 18.13px;
-    width: 166.29px;
-    height: 78.15px;
+    width: 179.93px;
+    height: 188.28px;
   }
   .payday-text h2 {
     position: absolute;
@@ -623,9 +969,9 @@ body .explore-now {
     width: 166.29px;
     height: 78.15px;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 30.2px;
     color: #000000;
-    line-height: 37px;
+    line-height: 37.12px;
   }
   .payday-text .btn-shop-now-payday {
     position: absolute;
@@ -645,7 +991,7 @@ body .explore-now {
   }
   .playday-p1 {
     position: absolute;
-    top: 18px;
+    top: 82.5px;
     left: 6.29px;
     width: 173.64px;
     height: 24.54px;
@@ -657,9 +1003,9 @@ body .explore-now {
   }
   .playday-p2 {
     position: absolute;
-    top: 122px;
+    top: 122.05px;
     left: 6.29px;
-    width: 116px;
+    width: 116.08px;
     height: 10.38px;
     font-weight: 700;
     font-size: 9.75px;
@@ -671,7 +1017,7 @@ body .explore-now {
     position: absolute;
     top: 137.43;
     left: 6.29px;
-    width: 133px;
+    width: 133.06px;
     height: 10.38px;
     font-weight: 400;
     font-size: 9px;
@@ -786,6 +1132,7 @@ body .explore-now {
     left: 28.14px;
     width: 443.2px;
     height: 229.18px;
+    background-color: #dfc23e;
   }
   .Favourites-logo {
     position: absolute;
@@ -799,7 +1146,7 @@ body .explore-now {
     margin-top: 45.46px;
     width: 100%;
     height: 183.52px;
-    gap: 15.96px;
+    gap: 37.32px;
   }
   .Favourites-cards-img {
     width: 100%;
@@ -808,7 +1155,8 @@ body .explore-now {
   }
   .trending {
     width: 202.93px;
-    height: 100%;
+    height: 183.72px;
+    gap: 7.58px;
   }
   .explore-now-trending {
     display: flex;
@@ -816,7 +1164,7 @@ body .explore-now {
     align-items: center;
     width: 100%;
     height: 20.56px;
-    margin-top: 7.58px;
+    margin-top: 0;
   }
   .trending-text {
     width: 93.35px;
@@ -824,23 +1172,24 @@ body .explore-now {
   }
   .trending-text h2 {
     width: 100%;
-    height: 9.74px;
+    height: 9.47px;
   }
   .trending-text p {
-    width: 30.3px;
-    height: 8.93px;
+    width: 39px;
+    height: 9px;
   }
   .under {
     width: 202.93px;
-    height: 100%;
+    height: 183.72px;
+    gap: 7.58px;
   }
   .explore-now-under {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 20.36px;
-    margin-top: 7.58px;
+    height: 20.56px;
+    margin-top: 0;
   }
   .under-text {
     width: 54.11px;
@@ -927,35 +1276,43 @@ body .explore-now {
 }
 
 .circle1 {
-  width: 22px;
-  height: 24px;
   position: absolute;
   top: 55px;
   left: 846px;
 }
+.circle1 img {
+  width: 22px;
+  height: 24px;
+}
 
 .circle2 {
-  width: 50px;
-  height: 50px;
   position: absolute;
   top: 40px;
   left: 1411px;
 }
+.circle2 img {
+  width: 50px;
+  height: 50px;
+}
 
 .circle3 {
-  width: 34px;
-  height: 34px;
   position: absolute;
   top: 669px;
   left: 812px;
 }
+.circle3 img {
+  width: 34px;
+  height: 34px;
+}
 
 .circle4 {
-  width: 17px;
-  height: 17px;
   position: absolute;
   top: 590px;
   left: 1466px;
+}
+.circle4 img {
+  width: 17px;
+  height: 17px;
 }
 
 .circles-small {
@@ -994,7 +1351,7 @@ body .explore-now {
     position: absolute;
     top: 628px;
     left: 60.34px;
-    width: 417.75px;
+    width: 402px;
     height: 200px;
   }
   .voucher-content {
@@ -1018,13 +1375,13 @@ body .explore-now {
     font-size: 13px;
     color: #000000;
     line-height: 16.23px;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.03em;
   }
   .voucher-content-text p {
     width: 113.37px;
     height: 16.5px;
     font-weight: 500;
-    font-size: 6.49pxpx;
+    font-size: 6.49px;
     color: #7c7c7c;
     line-height: 9.47px;
     letter-spacing: -0.04em;
@@ -1042,41 +1399,49 @@ body .explore-now {
   .app-match {
     position: absolute;
     top: -3.66px;
-    right: 38.24px;
-    width: 96px;
-    height: 203.66px;
+    right: 34.58px;
+    width: 99.68px;
+    height: 207.32px;
     border: 3.66px solid #c2c8da;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 9.85px;
     z-index: 1;
   }
   .circle1 {
-    width: 5.95px;
-    height: 6.49px;
     position: absolute;
     top: 19.22px;
     left: 228.9px;
   }
+  .circle1 img {
+    width: 5.95px;
+    height: 6.49px;
+  }
   .circle2 {
-    width: 13.53px;
-    height: 13.53px;
     position: absolute;
     top: 15.16px;
-    left: 381.76;
+    left: 381.76px;
+  }
+  .circle2 img {
+    width: 13.53px;
+    height: 13.53px;
   }
   .circle3 {
-    width: 9.2px;
-    height: 9.2px;
     position: absolute;
     top: 185.35px;
     left: 219.7px;
   }
+  .circle3 img {
+    width: 9.2px;
+    height: 9.2px;
+  }
   .circle4 {
-    width: 4.6px;
-    height: 4.6px;
     position: absolute;
     top: 163.97px;
     left: 396.66px;
+  }
+  .circle4 img {
+    width: 4.6px;
+    height: 4.6px;
   }
   .circles-small {
     position: absolute;
@@ -1140,11 +1505,15 @@ body .explore-now {
 }
 
 .add-email {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 49px;
   margin-left: 673px;
   width: 574px;
   height: 87px;
   background-color: white;
+  border-radius: 10px;
 }
 .add-email .add-email-here {
   width: 269px;
@@ -1171,72 +1540,80 @@ body .explore-now {
   color: white;
   font-weight: 500;
   font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0.03em;
 }
 
 @media screen and (max-width: 519px) {
   .community {
     position: absolute;
-    top: 5646px;
+    top: 883.97px;
     left: 0;
-    width: 1920px;
-    height: 623px;
+    width: 519px;
+    height: 168.57px;
     background-color: #e5c643;
   }
   .community h2 {
-    margin-top: 141px;
-    margin-left: 477px;
-    width: 966px;
-    height: 124px;
+    margin-top: 38.03px;
+    margin-left: 138.92px;
+    width: 285px;
+    height: 38px;
     font-weight: 900;
-    font-size: 55px;
+    font-size: 14.88px;
     color: white;
-    line-height: 70px;
+    line-height: 18.94px;
     letter-spacing: 0.03em;
     text-align: center;
   }
   .community p {
-    margin-top: 37px;
-    margin-left: 455px;
-    width: 1010px;
-    height: 29px;
+    margin-top: 5.68px;
+    margin-left: 144.92px;
+    width: 273.28px;
+    height: 7.85px;
     font-weight: 400;
-    font-size: 32px;
-    color: #fffcf8;
-    line-height: 35px;
+    font-size: 8.66px;
+    color: white;
+    line-height: 9.47px;
     letter-spacing: 0.03em;
     text-align: center;
   }
   .add-email {
-    margin-top: 49px;
-    margin-left: 673px;
-    width: 574px;
-    height: 87px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13.26px;
+    margin-left: 182.1px;
+    width: 155.31px;
+    height: 23.54px;
     background-color: white;
+    border-radius: 4px;
   }
   .add-email .add-email-here {
-    width: 269px;
-    height: 25px;
-    margin: 27px 107px 35px 27px;
+    width: 72.78px;
+    height: 6.76px;
+    margin: 7.31px 28.95px 9.47px 7.31px;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 6.49px;
     color: #767676;
-    line-height: 35px;
+    line-height: 9.47px;
     letter-spacing: 0.03em;
     border: none;
   }
   .add-email-btn {
     position: absolute;
-    top: 390px;
-    right: 683px;
-    width: 161px;
-    height: 67px;
-    border-radius: 8px;
-    padding: 17px 35px 15px 38px;
+    top: 105.52px;
+    right: 184px;
+    width: 43.56px;
+    height: 18.13px;
+    border-radius: 2.16px;
+    padding: 4.51px 10.78px 6.62px 10.78px;
     cursor: pointer;
     background-color: #000000;
     color: white;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 8px;
+    line-height: 9.47px;
+    letter-spacing: 0.03em;
   }
 }
 .footer {
@@ -1296,7 +1673,7 @@ body .explore-now {
 
 .footer-list {
   position: absolute;
-  top: 125px;
+  top: 119px;
   right: 100px;
   display: flex;
   width: 890px;
@@ -1347,63 +1724,63 @@ td {
 @media screen and (max-width: 519px) {
   .footer {
     position: absolute;
-    top: 6269px;
+    top: 1052.54px;
     left: 0;
-    width: 1920px;
-    height: 545px;
+    width: 519px;
+    height: 147.46px;
     background-color: #000000;
   }
   .footer-containter {
-    margin-top: 119px;
-    margin-left: 100px;
-    width: 1720px;
-    height: 279px;
+    margin-top: 32.2px;
+    margin-left: 27.06px;
+    width: 465.39px;
+    height: 75.49px;
   }
   .fashion {
-    width: 415px;
-    height: 248px;
-    gap: 32px;
+    width: 112.29px;
+    height: 67.56px;
+    gap: 8.66px;
   }
   .fashion h2 {
-    width: 192px;
-    height: 52px;
+    width: 51.95px;
+    height: 14.18px;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 10.82px;
     color: white;
     line-height: 100%;
     letter-spacing: 0.03em;
   }
   .fashion p {
     font-family: "Roboto", sans-serif;
-    width: 415px;
-    height: 80px;
+    width: 100%;
+    height: 22px;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 6.49px;
     color: #8e8e8e;
-    line-height: 40px;
+    line-height: 10.82px;
     letter-spacing: 0.02em;
   }
   .icons {
     display: flex;
-    width: 250px;
-    height: 52px;
+    width: 67.64px;
+    height: 14.07px;
     margin-left: 0;
     margin-bottom: 0;
-    gap: 14px;
+    gap: 3.79px;
     margin-top: 32px;
   }
   .icons img {
-    width: 52px;
+    width: 14.07px;
     height: 100%;
   }
   .footer-list {
     position: absolute;
-    top: 125px;
-    right: 100px;
+    top: 33.82px;
+    right: 27.06px;
     display: flex;
-    width: 890px;
-    height: 273px;
-    gap: 188px;
+    width: 241px;
+    height: 73.87px;
+    gap: 46px;
   }
   thead {
     color: #d9d9d9;
@@ -1412,30 +1789,25 @@ td {
     color: #7a7a7a;
   }
   tbody td {
-    margin-top: 20px;
-  }
-  tr {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    margin-top: 9px;
   }
   td {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 23px;
-    line-height: 40px;
+    font-size: 6.49px;
+    line-height: 10.82px;
     letter-spacing: 0.02em;
   }
   .company-list {
-    width: 120px;
+    width: 36px;
     height: 100%;
   }
   .quick-Link-list {
-    width: 177px;
+    width: 51px;
     height: 100%;
   }
   .legal-list {
-    width: 217px;
-    height: 149px;
+    width: 62px;
+    height: 40.32px;
   }
 }/*# sourceMappingURL=main.css.map */

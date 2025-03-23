@@ -33,20 +33,20 @@
   margin-top: $sz38;
 }
 
-//responsive - max-width 519.5px
+//responsive - max-width 519px
 
 @mixin explore-now-519 {
   font-weight: 500;
-  font-size: 6.5px;
+  font-size: 6.4px;
   line-height: 13.5px;
   letter-spacing: $em-04;
   color: $gray-darkest;
-  margin-top: 10px;
+  margin-top: 1.89px;
 }
 
 @mixin card-h2-519 {
   font-weight: 500;
-  font-size: 8.5px;
+  font-size: 8.66px;
   line-height: 13.5px;
   letter-spacing: $em-04;
   color: $black;
@@ -55,5 +55,30 @@
 @mixin arrow-519 {
   width: 9px;
   height: 5px;
-  margin-top: 10px;
+  margin-top: 10.28px;
+}
+
+//responsive - max-width 912px
+
+@mixin explore-now-912 {
+  font-weight: 500;
+  font-size: 11.4px;
+  line-height: 23.75px;
+  letter-spacing: $em-04;
+  color: $gray-darkest;
+  margin-top: 3.33px;
+}
+
+@mixin card-h2-912 {
+  font-weight: 500;
+  font-size: 15.2px;
+  line-height: 23.75px;
+  letter-spacing: $em-04;
+  color: #191919;
+}
+
+@mixin arrow-912 {
+  width: 15.2px;
+  height: 12px;
+  margin-top: 18.21px;
 }
