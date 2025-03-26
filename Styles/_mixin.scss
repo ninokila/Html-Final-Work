@@ -10,31 +10,6 @@
   left: 0;
 }
 
-@mixin explore-now {
-  font-weight: 500;
-  font-size: $sz24;
-  line-height: $sz50;
-  letter-spacing: $em-04;
-  color: $gray-darkest;
-  margin-top: $sz7;
-}
-
-@mixin card-h2 {
-  font-weight: 500;
-  font-size: $sz32;
-  line-height: $sz50;
-  letter-spacing: $em-04;
-  color: $black-lighter;
-}
-
-@mixin arrow {
-  width: $sz32;
-  height: $sz28;
-  margin-top: $sz38;
-}
-
-//responsive - max-width 519px
-
 @mixin explore-now-519 {
   font-weight: 500;
   font-size: 6.4px;
@@ -79,4 +54,54 @@
 @mixin arrow-912 {
   width: 15.2px;
   height: 12px;
+}
+
+//responsive - max-width 1440px
+
+@mixin explore-now-1440 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 37.5px;
+  letter-spacing: $em-04;
+  color: $gray-darkest;
+  margin-top: 5.25px;
+}
+
+@mixin card-h2-1440 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 37.5px;
+  letter-spacing: $em-04;
+  color: $black-lighter;
+}
+
+@mixin arrow-1440 {
+  width: 24px;
+  height: 21px;
+  margin-top: 28.5px;
+}
+
+//responsive - max-width 1920px
+
+@mixin explore-now {
+  font-weight: 500;
+  font-size: $sz24;
+  line-height: $sz50;
+  letter-spacing: $em-04;
+  color: $gray-darkest;
+  margin-top: $sz7;
+}
+
+@mixin card-h2 {
+  font-weight: 500;
+  font-size: $sz32;
+  line-height: $sz50;
+  letter-spacing: $em-04;
+  color: $black-lighter;
+}
+
+@mixin arrow {
+  width: $sz32;
+  height: $sz28;
+  margin-top: $sz38;
 }
