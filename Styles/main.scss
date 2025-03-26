@@ -7,27 +7,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-// Body
+//Body
 
 body {
   position: relative;
-  width: $sz1920;
-  height: 6814px;
+  width: $sz519;
+  height: 1822px;
   background-color: $white;
   font-family: $font-primary;
 }
 
-//header
+//Header
+
 .Header {
   position: absolute;
-  top: $sz46;
-  left: $sz100;
-  width: $sz1720;
-  height: $sz62;
+  top: 12.43px;
+  left: 27.08px;
+  width: 464.86px;
+  height: 16.75px;
 
   & img {
-    width: 236px;
-    height: 60px;
+    width: 63.78px;
+    height: 16.22px;
     margin-left: 0;
   }
 }
@@ -37,21 +38,21 @@ body {
   top: 0;
   right: 0;
   display: flex;
-  width: 840px;
-  height: $sz62;
+  width: 227.03px;
+  height: 16.75px;
 }
 
 .li-btn ul {
   @include flex-between;
-  width: 652px;
-  height: $sz36;
-  margin: $sz13 54px $sz13 0;
+  width: 176.22px;
+  height: 9.7px;
+  margin: 3.5px 14.6px 3.5px 0;
 
   & li {
     font-weight: 500;
-    font-size: $sz22;
+    font-size: 5.9px;
     line-height: 100%;
-    letter-spacing: -0.22px;
+    letter-spacing: -0.05px;
     color: $black-lightest;
 
     & a {
@@ -61,74 +62,74 @@ body {
 }
 
 .btn-sing-up {
-  width: $sz134;
-  height: $sz62;
-  border-radius: $sz7;
+  width: 36.22px;
+  height: 16.7px;
+  border-radius: 1.9px;
   background-color: $black;
   color: $white;
   font-weight: 500;
-  font-size: $sz24;
+  font-size: 6.5px;
   line-height: 100%;
   letter-spacing: $em-03;
   cursor: pointer;
 }
 
-//section - Unique
+//Unique
 
 .section-unique {
   position: absolute;
-  top: 56px;
-  left: $sz100;
-  width: $sz1720;
-  height: $sz852;
+  top: 15.13px;
+  left: 27.02px;
+  width: 464.86px;
+  height: 230.27px;
 }
 
 .container-unique-clothes {
   position: absolute;
-  top: $sz118;
+  top: 31.9px;
   left: 0;
-  width: $sz1720;
-  height: $sz852;
-  border-radius: 59px;
+  width: 464.86px;
+  height: 230.27px;
+  border-radius: 15.95px;
   background-color: $white-darkest;
 
   & h1 {
     position: absolute;
-    top: $sz77;
-    left: $sz119;
-    width: 474px;
-    height: 473px;
+    top: 20.8px;
+    left: 32.16px;
+    width: 128.1px;
+    height: 127.83px;
     font-weight: 900;
-    font-size: $sz96;
+    font-size: 26px;
     color: $black;
-    line-height: $sz120;
+    line-height: 32.43px;
   }
 
   p {
     position: absolute;
-    top: $sz590;
-    left: $sz119;
-    width: 606px;
-    height: $sz58;
+    top: 159.46px;
+    left: 32.16px;
+    width: 163.78px;
+    height: 6.68px;
     font-weight: 400;
-    font-size: $sz32;
+    font-size: 8.6px;
     line-height: 100%;
     color: $black-lighter;
-    letter-spacing: -1.6px;
+    letter-spacing: -0.43px;
   }
 
   .btn-shop-now {
     position: absolute;
-    top: 680px;
-    left: $sz125;
-    width: 221px;
-    height: $sz82;
-    border-radius: $sz10;
+    top: 183.78px;
+    left: 33.78px;
+    width: 59.73px;
+    height: 22.16px;
+    border-radius: 2.7px;
     cursor: pointer;
     background-color: $black;
     color: $white;
     font-weight: 500;
-    font-size: $sz30;
+    font-size: 8.1px;
     line-height: 100%;
     letter-spacing: $em-05;
   }
@@ -136,10 +137,10 @@ body {
 
 .unique-img {
   position: absolute;
-  top: $sz68;
-  right: 81px;
-  width: 871px;
-  height: 784px;
+  top: 18.37px;
+  right: 21.9px;
+  width: 235.4px;
+  height: 211.9px;
 
   & img {
     width: 100%;
@@ -149,269 +150,256 @@ body {
 
 .gray-star1 {
   position: absolute;
-  top: $sz68;
-  left: 748px;
-
-  & img {
-    width: $sz58;
-    height: 56px;
-  }
+  top: 18.37px;
+  left: 202.16px;
+  width: 15.67px;
+  height: 15.13px;
 }
 
 .gray-star2 {
   position: absolute;
-  top: $sz104;
-  left: 1424px;
-
-  & img {
-    width: $sz58;
-    height: 56px;
-  }
+  top: 28.1px;
+  left: 384.86px;
+  width: 15.67px;
+  height: 15.13px;
 }
 
 .gray-star3 {
   position: absolute;
-  top: 762px;
-  left: 791px;
-
-  & img {
-    width: $sz58;
-    height: 56px;
-  }
+  top: 205.9px;
+  left: 213.78px;
+  width: 15.67px;
+  height: 15.13px;
 }
 
 .gray-star4 {
   position: absolute;
-  top: $sz704;
-  left: 1579px;
-
-  & img {
-    width: $sz58;
-    height: 56px;
-  }
+  top: 190.27px;
+  left: 426.76px;
+  width: 15.67px;
+  height: 15.13px;
 }
 
 .unique-bg-white {
   position: absolute;
-  top: $sz77;
-  left: $sz82;
-  width: 465px;
-  height: $sz112;
+  top: 20.8px;
+  left: 22.16px;
+  width: 125.67px;
+  height: 30.2px;
   rotate: $szdeg;
   background-color: $white;
 }
 
 .unique-bg-gold {
   position: absolute;
-  top: 311px;
-  left: 93px;
-  width: 496px;
-  height: $sz118;
+  top: 84.05px;
+  left: 25.13px;
+  width: 134.05px;
+  height: 31.9px;
   rotate: $szdeg;
   background-color: $gold-light;
 }
 
-//Section - Brands
+//Brands
 
 .brand {
   position: absolute;
-  top: 1079px;
+  top: 291.62px;
   left: 0;
-  width: $sz1920;
-  height: 186px;
+  width: $sz519;
+  height: 50.27px;
   background-color: $gold-light;
 }
 
 .brand-logos {
   @include flex-between;
   position: absolute;
-  top: $sz61;
-  left: 171px;
-  width: 1578px;
-  height: $sz71;
+  top: 16.48px;
+  left: 46.21px;
+  width: 426.48px;
+  height: 19.19px;
 }
 
 .hm {
-  width: $sz118;
-  height: $sz70;
+  width: 31.9px;
+  height: 18.9px;
   mix-blend-mode: darken;
 }
 
 .obey {
-  width: 150px;
-  height: $sz52;
+  width: 40.5px;
+  height: 14.05px;
   mix-blend-mode: multiply;
 }
 
 .shopify {
-  width: 176px;
-  height: $sz62;
+  width: 47.56px;
+  height: 16.75px;
   mix-blend-mode: multiply;
 }
 
 .lacoste {
-  width: 235px;
-  height: $sz70;
+  width: 63.5px;
+  height: 18.9px;
   mix-blend-mode: multiply;
 }
 
 .levis {
-  width: 127px;
-  height: $sz70;
+  width: 34.3px;
+  height: 18.9px;
   mix-blend-mode: multiply;
 }
 
 .amazon {
-  width: 166px;
-  height: $sz63;
+  width: 48.8px;
+  height: 17px;
   mix-blend-mode: multiply;
 }
 
-//Section - New Arrivals
+//New Arrivals
 
 .new-arrivals {
   position: absolute;
-  top: 1334px;
-  left: $sz104;
-  width: 1714px;
-  height: 967px;
+  top: 360.5px;
+  left: 28.1px;
+  width: 463.24px;
+  height: 261.35px;
 }
 
 .new-arrivals-logo {
   @include position-0;
-  width: 430px;
-  height: $sz58;
+  width: 116.21px;
+  height: 15.67px;
 }
+
 .new-arrivals-cards {
   display: flex;
-  margin-top: 159px;
+  margin-top: 42.97px;
   width: 100%;
-  height: 808px;
-  gap: $sz90;
-
-  & .card-h2 {
-    @include card-h2;
-  }
-
-  & .explore-now {
-    @include explore-now;
-  }
+  height: 218.38px;
+  gap: 24.32px;
 }
 
 .new-arrivals-cards-img {
   width: 100%;
-  height: $sz704;
-  border-radius: $sz20;
+  height: 190.27px;
+  border-radius: 5.4px;
 }
 
 .hoodies {
-  width: $sz484;
+  width: 130.8px;
   height: 100%;
 }
 
 .coats {
-  margin-bottom: $sz3;
-  width: $sz484;
-  height: $sz805;
+  margin-bottom: 0.8px;
+  width: 130.8px;
+  height: 217.56px;
 }
 
 .tees {
-  margin-bottom: $sz3;
-  width: $sz490;
-  height: $sz805;
+  margin-bottom: 0.8px;
+  width: 132.43px;
+  height: 217.56px;
 }
 
 .explore-now-hoodies {
   @include flex-between;
   width: 100%;
-  height: $sz76;
-  margin-top: $sz28;
+  height: 20.5px;
+  margin-top: 7.56px;
+
+  & img {
+    @include arrow-519;
+  }
 }
 
 .hoodies-text {
-  width: 321px;
+  width: 86.75px;
   height: 100%;
 
-  & h2 {
+  & .card-h2 {
     width: 100%;
-    height: $sz36;
+    height: 9.7px;
+    @include card-h2-519;
   }
 
-  & p {
-    width: 151px;
-    height: $sz33;
-  }
-
-  & img {
-    @include arrow;
+  & .explore-now {
+    width: 40.8px;
+    height: 8.9px;
+    @include explore-now-519;
   }
 }
 
 .explore-now-coats {
   @include flex-between;
   width: 100%;
-  height: $sz75;
-  margin-top: $sz26;
+  height: 20.27px;
+  margin-top: 7px;
+
+  & img {
+    @include arrow-519;
+  }
 }
 
 .coats-text {
-  width: $sz230;
+  width: 62.16px;
   height: 100%;
 
-  & h2 {
+  & .card-h2 {
     width: 100%;
-    height: $sz36;
+    height: 9.7px;
+    @include card-h2-519;
   }
 
-  & p {
-    width: $sz153;
-    height: $sz32;
-  }
-
-  & img {
-    @include arrow;
+  & .explore-now {
+    width: 41.35px;
+    height: 8.6px;
+    @include explore-now-519;
   }
 }
 
 .explore-now-tees {
   @include flex-between;
   width: 100%;
-  height: $sz75;
-  margin-top: $sz26;
+  height: 20.07px;
+  margin-top: 7px;
+
+  & img {
+    @include arrow-519;
+  }
 }
 
 .tees-text {
-  width: $sz230;
+  width: 62.16px;
   height: 100%;
 
-  & h2 {
+  & .card-h2 {
     width: 100%;
-    height: $sz36;
+    height: 9.7px;
+    @include card-h2-519;
   }
 
-  & p {
-    width: $sz153;
-    height: $sz32;
-  }
-
-  & img {
-    @include arrow;
+  & .explore-now {
+    width: 41.35px;
+    height: 8.64px;
+    @include explore-now-519;
   }
 }
 
-//Section - Payday
+//Payday
 
 .section-payday {
   position: absolute;
-  top: 2491px;
-  left: 0;
-  width: $sz1920;
-  height: 968px;
+  top: 652.15px;
+  right: 0;
+  width: $sz519;
+  height: 261.92px;
 }
 
 .payday-img {
   @include position-0;
-  width: 992px;
+  width: 267.7px;
   height: 100%;
 
   & img {
@@ -422,41 +410,41 @@ body {
 
 .white-star1 {
   position: absolute;
-  top: 152px;
-  left: 136px;
-  width: $sz76;
-  height: $sz76;
+  top: 41.09px;
+  left: 36.82px;
+  width: 20.57px;
+  height: 20.57px;
 }
 
 .white-star2 {
   position: absolute;
-  top: 84px;
-  left: 765px;
-  width: $sz76;
-  height: $sz76;
+  top: 22.73px;
+  left: 206.72px;
+  width: 20.57px;
+  height: 20.57px;
 }
 
 .white-star3 {
   position: absolute;
-  top: $sz490;
-  left: 187px;
-  width: $sz76;
-  height: $sz76;
+  top: 132.58px;
+  left: 50.6px;
+  width: 20.57px;
+  height: 20.57px;
 }
 
 .white-star4 {
   position: absolute;
-  top: 639px;
-  left: $sz817;
-  width: $sz76;
-  height: $sz76;
+  top: 172.9px;
+  left: 220.52px;
+  width: 20.57px;
+  height: 20.57px;
 }
 
 .payday-content {
   position: absolute;
   top: 0;
   right: 0;
-  width: 932px;
+  width: 251.91px;
   height: 100%;
   background: linear-gradient(
     1.32deg,
@@ -485,35 +473,35 @@ body {
 
 .payday-text {
   position: absolute;
-  top: 128px;
-  left: $sz67;
-  width: 667px;
-  height: 685px;
+  top: 34.67px;
+  left: 18.13px;
+  width: 179.93px;
+  height: 188.28px;
 
   & h2 {
     position: absolute;
     top: 0;
-    right: $sz50;
-    width: 617px;
-    height: 287px;
+    right: 13.64px;
+    width: 166.29px;
+    height: 78.15px;
     font-weight: 900;
-    font-size: $sz112;
+    font-size: 30.2px;
     color: $black;
-    line-height: 137px;
+    line-height: 37.12px;
   }
 
   .btn-shop-now-payday {
     position: absolute;
     bottom: 0;
-    left: $sz23;
-    width: 266px;
-    height: $sz96;
-    border-radius: $sz8;
+    left: 6.29px;
+    width: 71.72px;
+    height: 25.79px;
+    border-radius: 2.2px;
     cursor: pointer;
     background-color: $black;
     color: $white;
     font-weight: 600;
-    font-size: $sz28;
+    font-size: 7.55px;
     line-height: 100%;
     letter-spacing: $em02;
     text-transform: uppercase;
@@ -522,39 +510,39 @@ body {
 
 .playday-p1 {
   position: absolute;
-  top: 320px;
-  left: $sz23;
-  width: 643px;
-  height: 91px;
-  font-weight: 500;
-  font-size: $sz36;
-  line-height: 52.32px;
+  top: 82.5px;
+  left: 6.29px;
+  width: 173.64px;
+  height: 24.54px;
+  font-weight: 400;
+  font-size: $sz9;
+  line-height: 14.16px;
   letter-spacing: $em-02;
-  color: $black-light;
+  color: $black;
 }
 
 .playday-p2 {
   position: absolute;
-  top: 451px;
-  left: $sz23;
-  width: 429px;
-  height: $sz38;
+  top: 122.05px;
+  left: 6.29px;
+  width: 116.08px;
+  height: 10.38px;
   font-weight: 700;
-  font-size: $sz36;
-  line-height: 52.32px;
+  font-size: 9.75px;
+  line-height: 14.16px;
   letter-spacing: $em02;
   color: $black;
 }
 
 .playday-p3 {
   position: absolute;
-  top: 500px;
-  left: $sz23;
-  width: 492px;
-  height: $sz37;
+  top: 137.43px;
+  left: 6.29px;
+  width: 133.06px;
+  height: 10.38px;
   font-weight: 400;
-  font-size: $sz36;
-  line-height: 52.32px;
+  font-size: $sz9;
+  line-height: 14.16px;
   letter-spacing: $em-02;
   color: $black;
 }
@@ -562,160 +550,159 @@ body {
 .payday-bg-white {
   position: absolute;
   top: 0;
-  left: -23px;
-  width: 542px;
-  height: 130px;
+  left: -6.29px;
+  width: 146.19px;
+  height: 35.28px;
   rotate: $szdeg;
   background-color: $white;
 }
 
-//Section - Favourites
+//Favourite
+
 .Favourites {
   position: absolute;
-  top: 3649px;
-  left: $sz100;
-  width: $sz1720;
-  height: 847px;
+  top: 965.48px;
+  left: 28.14px;
+  width: 443.2px;
+  height: 229.18px;
 }
 
 .Favourites-logo {
   @include position-0;
-  width: 551px;
-  height: 64px;
+  width: $sz134;
+  height: $sz17;
 }
 .Favourites-cards {
   display: flex;
-  margin-top: 168px;
+  margin-top: 45.46px;
   width: 100%;
-  height: 679px;
-  gap: 47px;
-
-  & .card-h2 {
-    @include card-h2;
-  }
-
-  & .explore-now {
-    @include explore-now;
-  }
+  height: 183.52px;
+  gap: 12.7px;
 }
 
 .Favourites-cards-img {
   width: 100%;
-  height: $sz575;
-  border-radius: $sz20;
+  height: 155.58px;
+  border-radius: $sz10;
 }
 
 .trending {
-  width: 835px;
-  height: 100%;
+  width: 202.93px;
+  height: 183.72px;
+  gap: 7.58px;
 }
 
 .explore-now-trending {
   @include flex-between;
   width: 100%;
-  height: $sz76;
-  margin-top: $sz28;
+  height: 20.56px;
+  margin-top: 0;
+
+  & img {
+    @include arrow-519;
+  }
 }
 
 .trending-text {
-  width: 345px;
+  width: 93.35px;
   height: 100%;
 
-  & h2 {
+  & .card-h2 {
     width: 100%;
-    height: $sz36;
+    height: 9.47px;
+    @include card-h2-519;
   }
 
-  & p {
-    width: 146px;
-    height: $sz33;
-  }
-
-  & img {
-    @include arrow;
+  & .explore-now {
+    width: $sz39;
+    height: $sz9;
+    @include explore-now-519;
   }
 }
 
 .under {
-  width: 838px;
-  height: 100%;
+  width: 202.93px;
+  height: 183.72px;
+  gap: 7.58px;
 }
 
 .explore-now-under {
   @include flex-between;
   width: 100%;
-  height: $sz75;
-  margin-top: $sz28;
+  height: 20.56px;
+  margin-top: 0;
+
+  & img {
+    @include arrow-519;
+  }
 }
 
 .under-text {
-  width: $sz200;
+  width: 54.11px;
   height: 100%;
 
-  & h2 {
+  & .card-h2 {
     width: 100%;
-    height: $sz35;
+    height: 9.47px;
+    @include card-h2-519;
   }
 
-  & p {
-    width: 143px;
-    height: $sz33;
-  }
-
-  & img {
-    @include arrow;
+  & .explore-now {
+    width: $sz39;
+    height: $sz9;
+    @include explore-now-519;
   }
 }
 
 .favourite-cards-img {
   width: 100%;
-  height: $sz575;
-  border-radius: $sz20;
+  height: 155.58px;
+  border-radius: $sz10;
 }
 
-//Section -Voucher
+//Voucher
 
 .voucher {
   display: flex;
   position: absolute;
-  top: 4716px;
-  left: 219px;
-  width: 1483px;
-  height: 710px;
+  top: 1249.85px;
+  left: 60.34px;
+  width: 402px;
+  height: $sz200;
 }
 
 .voucher-content {
   position: absolute;
-  top: 181px;
+  top: 53.31px;
   left: 0;
-  width: 507px;
-  height: 382px;
+  width: 133.12px;
+  height: 93.89px;
 }
 
 .voucher-content-text {
   @include position-0;
   width: 100%;
-  height: 246px;
+  height: 57.09px;
 
   & h2 {
     width: 100%;
-    height: 144px;
+    height: 29.49px;
     font-weight: 900;
-    font-size: $sz48;
+    font-size: $sz13;
     color: $black;
-    line-height: 150%;
-    letter-spacing: 0.04em;
+    line-height: 16.23px;
+    letter-spacing: $em03;
   }
 
   & p {
-    width: 419px;
-    height: $sz61;
+    width: 113.37px;
+    height: 16.5px;
     font-weight: 500;
-    font-size: $sz24;
+    font-size: 6.49px;
     color: $gray;
-    line-height: $sz35;
+    line-height: 9.47px;
     letter-spacing: $em-04;
-    margin-top: $sz41;
+    margin-top: 11.09px;
   }
 }
 
@@ -724,129 +711,129 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 427px;
-  height: $sz71;
-  gap: 19px;
+  width: 115.54px;
+  height: 19.21px;
+  gap: 5.14px;
 }
 
 .app-match {
   position: absolute;
-  top: -22.5px;
-  right: $sz118;
-  width: 372.5px;
-  height: 755px;
-  border: 22.58px solid $blue;
-  box-shadow: 0px $sz4 $sz63 rgba(0, 0, 0, 0.25);
-  border-radius: $sz35;
+  top: -6.08px;
+  right: 31.9px;
+  width: 124.17px;
+  height: 212.05px;
+  border: 6.08px solid $blue;
+  box-shadow: 0px 1.08px 17px rgba(0, 0, 0, 0.06);
+  border-radius: 9.45px;
   z-index: 1;
 }
 
 .circle1 {
   position: absolute;
-  top: $sz55;
-  left: $sz846;
+  top: 14.86px;
+  left: 228.64px;
 
   & img {
-    width: $sz22;
-    height: $sz24;
+    width: 5.95px;
+    height: 6.49px;
   }
 }
 
 .circle2 {
   position: absolute;
-  top: $sz40;
-  left: 1411px;
+  top: 10.81px;
+  left: 381.35px;
 
   & img {
-    width: $sz50;
-    height: $sz50;
+    width: 13.51px;
+    height: 13.51px;
   }
 }
 
 .circle3 {
   position: absolute;
-  top: 669px;
-  left: 812px;
+  top: 180.81px;
+  left: 219.45px;
 
   & img {
-    width: $sz34;
-    height: $sz34;
+    width: 9.2px;
+    height: 9.2px;
   }
 }
 
 .circle4 {
   position: absolute;
-  top: $sz590;
-  left: 1466px;
+  top: 159.45px;
+  left: 396.21px;
 
   & img {
-    width: $sz17;
-    height: $sz17;
+    width: 4.6px;
+    height: 4.6px;
   }
 }
 
 .circles-small {
   position: absolute;
-  top: 138px;
-  left: 937px;
-  width: 440px;
-  height: 434px;
-  border: 2.5px solid $white-dark;
+  top: 37.29px;
+  left: 253.24px;
+  width: 118.9px;
+  height: 117.29px;
+  border: 0.67px solid $white-dark;
   border-radius: 50%;
 }
 
 .circles-medium {
   position: absolute;
-  top: $sz90;
-  left: 895px;
-  width: 537px;
-  height: 530px;
-  border: 2.5px solid $white-dark;
+  top: 24.32px;
+  left: 241.89px;
+  width: 145.13px;
+  height: 143.24px;
+  border: 0.67px solid $white-dark;
   border-radius: 50%;
 }
 
 .circles-large {
   position: absolute;
-  top: $sz40;
-  left: $sz846;
-  width: 637px;
-  height: 629px;
-  border: 2.5px solid $white-dark;
+  top: 10.81px;
+  left: 228.64px;
+  width: 172.16px;
+  height: 170px;
+  border: 0.67px solid $white-dark;
   border-radius: 50%;
 }
 
-//Section - Community
+//Community
 
 .community {
   position: absolute;
-  top: 5646px;
+  top: 1505.82px;
   left: 0;
-  width: $sz1920;
-  height: 623px;
+  width: $sz519;
+  height: 168.57px;
   background-color: $gold-medium;
 
   & h2 {
-    margin-top: 141px;
-    margin-left: 477px;
-    width: 966px;
-    height: 124px;
+    margin-top: 38.03px;
+    margin-left: 138.92px;
+    width: 285px;
+    height: $sz38;
     font-weight: 900;
-    font-size: $sz55;
+    font-size: 14.88px;
     color: $white;
-    line-height: $sz70;
+    line-height: 18.94px;
     letter-spacing: $em03;
     text-align: center;
   }
 
   & p {
-    margin-top: $sz37;
-    margin-left: 455px;
-    width: 1010px;
-    height: $sz29;
+    margin-top: 5.68px;
+    margin-left: 144.92px;
+    width: 273.28px;
+    height: 7.85px;
     font-weight: 400;
-    font-size: $sz32;
-    color: $white-darker;
-    line-height: $sz35;
+    font-size: 8.66px;
+    color: $white;
+    line-height: 9.47px;
     letter-spacing: $em03;
     text-align: center;
   }
@@ -854,21 +841,21 @@ body {
 
 .add-email {
   @include flex-between;
-  margin-top: 49px;
-  margin-left: 673px;
-  width: 574px;
-  height: 87px;
+  margin-top: 13.26px;
+  margin-left: 182.1px;
+  width: 155.31px;
+  height: 23.54px;
   background-color: $white;
-  border-radius: $sz10;
+  border-radius: 4px;
 
   & .add-email-here {
-    width: 269px;
-    height: $sz25;
-    margin: $sz27 107px $sz35 $sz27;
+    width: 72.78px;
+    height: 6.76px;
+    margin: 7.31px 28.95px 9.47px 7.31px;
     font-weight: 400;
-    font-size: $sz24;
+    font-size: 6.49px;
     color: $gray-darker;
-    line-height: $sz35;
+    line-height: 9.47px;
     letter-spacing: $em03;
     border: none;
   }
@@ -876,49 +863,49 @@ body {
 
 .add-email-btn {
   position: absolute;
-  top: 390px;
-  right: 683px;
-  width: 161px;
-  height: $sz67;
-  border-radius: $sz8;
-  padding: $sz17 $sz35 $sz15 $sz38;
+  top: 105.52px;
+  right: 184px;
+  width: 43.56px;
+  height: 18.13px;
+  border-radius: 2.16px;
+  padding: 4.51px 10.78px 6.62px 10.78px;
   cursor: pointer;
   background-color: $black;
   color: $white;
   font-weight: 500;
-  font-size: $sz24;
-  line-height: $sz35;
+  font-size: $sz8;
+  line-height: 9.47px;
   letter-spacing: $em03;
 }
 
-//Section - Footer
+//Footer
 
 .footer {
   position: absolute;
-  top: 6269px;
+  top: 1674.39px;
   left: 0;
-  width: $sz1920;
-  height: 545px;
+  width: $sz519;
+  height: 147.46px;
   background-color: $black;
 }
 
 .footer-containter {
-  margin-top: $sz119;
-  margin-left: $sz100;
-  width: $sz1720;
-  height: 279px;
+  margin-top: 32.2px;
+  margin-left: 27.06px;
+  width: 465.39px;
+  height: 75.49px;
 }
 
 .fashion {
-  width: $sz415;
-  height: 248px;
-  gap: $sz32;
+  width: 112.29px;
+  height: 67.56px;
+  gap: 8.66px;
 
   & h2 {
-    width: 192px;
-    height: $sz52;
+    width: 51.95px;
+    height: 14.18px;
     font-weight: 900;
-    font-size: $sz40;
+    font-size: 10.82px;
     color: $white;
     line-height: 100%;
     letter-spacing: $em03;
@@ -926,39 +913,39 @@ body {
 
   & p {
     font-family: $font-secondary;
-    width: $sz415;
-    height: 80px;
+    width: 100%;
+    height: $sz22;
     font-weight: 400;
-    font-size: $sz24;
+    font-size: 6.49px;
     color: $gray-ligrter;
-    line-height: $sz40;
+    line-height: 10.82px;
     letter-spacing: $em02;
   }
 }
 
 .icons {
   display: flex;
-  width: 250px;
-  height: $sz52;
+  width: 67.64px;
+  height: 14.07px;
   margin-left: 0;
   margin-bottom: 0;
-  gap: 14px;
+  gap: 3.79px;
   margin-top: $sz32;
 
   & img {
-    width: $sz52;
+    width: 14.07px;
     height: 100%;
   }
 }
 
 .footer-list {
   position: absolute;
-  top: $sz119;
-  right: $sz100;
+  top: 33.82px;
+  right: 27.06px;
   display: flex;
-  width: 890px;
-  height: 273px;
-  gap: 188px;
+  width: 241px;
+  height: 73.87px;
+  gap: $sz46;
 }
 
 thead {
@@ -969,1038 +956,36 @@ tbody {
   color: $gray-darkest;
 
   & td {
-    margin-top: $sz20;
+    margin-top: $sz9;
   }
-}
-
-tr {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 td {
   font-family: $font-secondary;
   font-weight: 400;
-  font-size: $sz23;
-  line-height: $sz40;
+  font-size: 6.49px;
+  line-height: 10.82px;
   letter-spacing: $em02;
 }
 
 .company-list {
-  width: $sz120;
+  width: 36px;
   height: 100%;
 }
 
 .quick-Link-list {
-  width: 177px;
+  width: 51px;
   height: 100%;
 }
 
 .legal-list {
-  width: 217px;
-  height: 149px;
-}
-
-//Responsive Body - max-width 519px
-
-@media screen and (max-width: 519px) {
-  body {
-    position: relative;
-    width: $sz519;
-    height: 1822px;
-    background-color: $white;
-    font-family: $font-primary;
-  }
-}
-
-//Responsive header - max-width 519px
-
-@media screen and (max-width: 519px) {
-  .Header {
-    position: absolute;
-    top: 12.43px;
-    left: 27.08px;
-    width: 464.86px;
-    height: 16.75px;
-
-    & img {
-      width: 63.78px;
-      height: 16.22px;
-      margin-left: 0;
-    }
-  }
-
-  .li-btn {
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    width: 227.03px;
-    height: 16.75px;
-  }
-
-  .li-btn ul {
-    @include flex-between;
-    width: 176.22px;
-    height: 9.7px;
-    margin: 3.5px 14.6px 3.5px 0;
-
-    & li {
-      font-weight: 500;
-      font-size: 5.9px;
-      line-height: 100%;
-      letter-spacing: -0.05px;
-      color: $black-lightest;
-
-      & a {
-        color: $black;
-      }
-    }
-  }
-
-  .btn-sing-up {
-    width: 36.22px;
-    height: 16.7px;
-    border-radius: 1.9px;
-    background-color: $black;
-    color: $white;
-    font-weight: 500;
-    font-size: 6.5px;
-    line-height: 100%;
-    letter-spacing: $em-03;
-    cursor: pointer;
-  }
-}
-
-//Responsive Unique - max-width 519px
-
-@media screen and (max-width: 519px) {
-  .section-unique {
-    position: absolute;
-    top: 15.13px;
-    left: 27.02px;
-    width: 464.86px;
-    height: 230.27px;
-  }
-
-  .container-unique-clothes {
-    position: absolute;
-    top: 31.9px;
-    left: 0;
-    width: 464.86px;
-    height: 230.27px;
-    border-radius: 15.95px;
-    background-color: $white-darkest;
-
-    & h1 {
-      position: absolute;
-      top: 20.8px;
-      left: 32.16px;
-      width: 128.1px;
-      height: 473px;
-      font-weight: 900;
-      font-size: 26px;
-      color: $black;
-      line-height: 32.43px;
-    }
-
-    p {
-      position: absolute;
-      top: 159.46px;
-      left: 32.16px;
-      width: 163.78px;
-      height: 6.68px;
-      font-weight: 400;
-      font-size: 8.6px;
-      line-height: 100%;
-      color: $black-lighter;
-      letter-spacing: -0.43px;
-    }
-
-    .btn-shop-now {
-      position: absolute;
-      top: 183.78px;
-      left: 33.78px;
-      width: 59.73px;
-      height: 22.16px;
-      border-radius: 2.7px;
-      cursor: pointer;
-      background-color: $black;
-      color: $white;
-      font-weight: 500;
-      font-size: 8.1px;
-      line-height: 100%;
-      letter-spacing: $em-05;
-    }
-  }
-
-  .unique-img {
-    position: absolute;
-    top: 18.37px;
-    right: 21.9px;
-    width: 235.4px;
-    height: 211.9px;
-
-    & img {
-      width: 100%;
-      height: 100%;
-    }
-  }
-
-  .gray-star1 {
-    position: absolute;
-    top: 18.37px;
-    left: 202.16px;
-    width: 15.67px;
-    height: 15.13px;
-  }
-
-  .gray-star2 {
-    position: absolute;
-    top: 28.1px;
-    left: 384.86px;
-    width: 15.67px;
-    height: 15.13px;
-  }
-
-  .gray-star3 {
-    position: absolute;
-    top: 205.9px;
-    left: 213.78pxpx;
-    width: 15.67px;
-    height: 15.13px;
-  }
-
-  .gray-star4 {
-    position: absolute;
-    top: 190.27px;
-    left: 426.76px;
-    width: 15.67px;
-    height: 15.13px;
-  }
-
-  .unique-bg-white {
-    position: absolute;
-    top: 20.8px;
-    left: 22.16px;
-    width: 125.67px;
-    height: 30.2px;
-    rotate: $szdeg;
-    background-color: $white;
-  }
-
-  .unique-bg-gold {
-    position: absolute;
-    top: 84.05px;
-    left: 25.13px;
-    width: 134.05px;
-    height: 31.9px;
-    rotate: $szdeg;
-    background-color: $gold-light;
-  }
-}
-
-//Responsive Brands - max-width 519px
-
-@media screen and (max-width: 519px) {
-  .brand {
-    position: absolute;
-    top: 291.62px;
-    left: 0;
-    width: $sz519;
-    height: 50.27px;
-    background-color: $gold-light;
-  }
-
-  .brand-logos {
-    @include flex-between;
-    position: absolute;
-    top: 16.48px;
-    left: 46.21px;
-    width: 426.48px;
-    height: 19.19px;
-  }
-
-  .hm {
-    width: 31.9px;
-    height: 18.9px;
-    mix-blend-mode: darken;
-  }
-
-  .obey {
-    width: 40.5px;
-    height: 14.05px;
-    mix-blend-mode: multiply;
-  }
-
-  .shopify {
-    width: 47.56px;
-    height: 16.75px;
-    mix-blend-mode: multiply;
-  }
-
-  .lacoste {
-    width: 63.5px;
-    height: 18.9px;
-    mix-blend-mode: multiply;
-  }
-
-  .levis {
-    width: 34.3px;
-    height: 18.9px;
-    mix-blend-mode: multiply;
-  }
-
-  .amazon {
-    width: 48.8px;
-    height: 17px;
-    mix-blend-mode: multiply;
-  }
-}
-
-//Responsive New Arrivals - max-width 519px
-
-@media screen and (max-width: 519px) {
-  .new-arrivals {
-    position: absolute;
-    top: 360.5px;
-    left: 28.1px;
-    width: 463.24px;
-    height: 261.35px;
-  }
-
-  .new-arrivals-logo {
-    @include position-0;
-    width: 116.21px;
-    height: 15.67px;
-  }
-
-  .new-arrivals-cards {
-    display: flex;
-    margin-top: 42.97px;
-    width: 100%;
-    height: 218.38px;
-    gap: 24.32px;
-  }
-
-  .new-arrivals-cards-img {
-    width: 100%;
-    height: 190.27px;
-    border-radius: 5.4px;
-  }
-
-  .hoodies {
-    width: 130.8px;
-    height: 100%;
-  }
-
-  .coats {
-    margin-bottom: 0.8px;
-    width: 130.8px;
-    height: 217.56px;
-  }
-
-  .tees {
-    margin-bottom: 0.8px;
-    width: 132.43px;
-    height: 217.56px;
-  }
-
-  .explore-now-hoodies {
-    @include flex-between;
-    width: 100%;
-    height: 20.5px;
-    margin-top: 7.56px;
-
-    & img {
-      @include arrow-519;
-    }
-  }
-
-  .hoodies-text {
-    width: 86.75px;
-    height: 100%;
-
-    & .card-h2 {
-      width: 100%;
-      height: 9.7px;
-      @include card-h2-519;
-    }
-
-    & .explore-now {
-      width: 40.8px;
-      height: 8.9px;
-      @include explore-now-519;
-    }
-  }
-
-  .explore-now-coats {
-    @include flex-between;
-    width: 100%;
-    height: 20.27;
-    margin-top: 7px;
-
-    & img {
-      @include arrow-519;
-    }
-  }
-
-  .coats-text {
-    width: 62.16px;
-    height: 100%;
-
-    & .card-h2 {
-      width: 100%;
-      height: 9.7px;
-      @include card-h2-519;
-    }
-
-    & .explore-now {
-      width: 41.35px;
-      height: 8.6px;
-      @include explore-now-519;
-    }
-  }
-
-  .explore-now-tees {
-    @include flex-between;
-    width: 100%;
-    height: 20.07px;
-    margin-top: 7px;
-
-    & img {
-      @include arrow-519;
-    }
-  }
-
-  .tees-text {
-    width: 62.16px;
-    height: 100%;
-
-    & .card-h2 {
-      width: 100%;
-      height: 9.7px;
-      @include card-h2-519;
-    }
-
-    & .explore-now {
-      width: 41.35px;
-      height: 8.64px;
-      @include explore-now-519;
-    }
-  }
-}
-
-//Responsive payday - max-width 519px
-
-@media screen and (max-width: 519px) {
-  .section-payday {
-    position: absolute;
-    top: 652.15px;
-    right: 0;
-    width: $sz519;
-    height: 261.92px;
-  }
-
-  .payday-img {
-    @include position-0;
-    width: 267.7px;
-    height: 100%;
-
-    & img {
-      width: 100%;
-      height: 100%;
-    }
-  }
-
-  .white-star1 {
-    position: absolute;
-    top: 41.09px;
-    left: 36.82px;
-    width: 20.57px;
-    height: 20.57px;
-  }
-
-  .white-star2 {
-    position: absolute;
-    top: 22.73px;
-    left: 206.72px;
-    width: 20.57px;
-    height: 20.57px;
-  }
-
-  .white-star3 {
-    position: absolute;
-    top: 132.58px;
-    left: 50.6px;
-    width: 20.57px;
-    height: 20.57px;
-  }
-
-  .white-star4 {
-    position: absolute;
-    top: 172.9px;
-    left: 220.52px;
-    width: 20.57px;
-    height: 20.57px;
-  }
-
-  .payday-content {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 251.91px;
-    height: 100%;
-    background: linear-gradient(
-      1.32deg,
-      #e0c340 0.13%,
-      #dfc23e 3.97%,
-      #e1c441 7.2%,
-      #e3c743 10.13%,
-      #e4c542 12.98%,
-      #e6c744 15.99%,
-      #e7c845 19.52%,
-      #e5c643 23.96%,
-      #e6c945 30.43%,
-      #e3c743 36.49%,
-      #e9ca48 42.49%,
-      #edce49 49.35%,
-      #f0d44c 55.42%,
-      #f4d84f 61.43%,
-      #f6da52 65.74%,
-      #f7db53 72.23%,
-      #f9dd55 77.43%,
-      #f9df56 83.84%,
-      #fae157 91.52%,
-      #f9df56 97.87%
-    );
-  }
-
-  .payday-text {
-    position: absolute;
-    top: 34.67px;
-    left: 18.13px;
-    width: 179.93px;
-    height: 188.28px;
-
-    & h2 {
-      position: absolute;
-      top: 0;
-      right: 13.64px;
-      width: 166.29px;
-      height: 78.15px;
-      font-weight: 900;
-      font-size: 30.2px;
-      color: $black;
-      line-height: 37.12px;
-    }
-
-    .btn-shop-now-payday {
-      position: absolute;
-      bottom: 0;
-      left: 6.29px;
-      width: 71.72px;
-      height: 25.79px;
-      border-radius: 2.2px;
-      cursor: pointer;
-      background-color: $black;
-      color: $white;
-      font-weight: 600;
-      font-size: 7.55px;
-      line-height: 100%;
-      letter-spacing: $em02;
-      text-transform: uppercase;
-    }
-  }
-
-  .playday-p1 {
-    position: absolute;
-    top: 82.5px;
-    left: 6.29px;
-    width: 173.64px;
-    height: 24.54px;
-    font-weight: 400;
-    font-size: $sz9;
-    line-height: 14.16px;
-    letter-spacing: $em-02;
-    color: $black;
-  }
-
-  .playday-p2 {
-    position: absolute;
-    top: 122.05px;
-    left: 6.29px;
-    width: 116.08px;
-    height: 10.38px;
-    font-weight: 700;
-    font-size: 9.75px;
-    line-height: 14.16px;
-    letter-spacing: $em02;
-    color: $black;
-  }
-
-  .playday-p3 {
-    position: absolute;
-    top: 137.43px;
-    left: 6.29px;
-    width: 133.06px;
-    height: 10.38px;
-    font-weight: 400;
-    font-size: $sz9;
-    line-height: 14.16px;
-    letter-spacing: $em-02;
-    color: $black;
-  }
-
-  .payday-bg-white {
-    position: absolute;
-    top: 0;
-    left: -6.29px;
-    width: 146.19px;
-    height: 35.28px;
-    rotate: $szdeg;
-    background-color: $white;
-  }
-}
-
-//Responsive Favourite - max-width 519px
-
-@media screen and (max-width: 519px) {
-  .Favourites {
-    position: absolute;
-    top: 965.48px;
-    left: 28.14px;
-    width: 443.2px;
-    height: 229.18px;
-  }
-
-  .Favourites-logo {
-    @include position-0;
-    width: $sz134;
-    height: $sz17;
-  }
-  .Favourites-cards {
-    display: flex;
-    margin-top: 45.46px;
-    width: 100%;
-    height: 183.52px;
-    gap: 12.7px;
-  }
-
-  .Favourites-cards-img {
-    width: 100%;
-    height: 155.58px;
-    border-radius: $sz10;
-  }
-
-  .trending {
-    width: 202.93px;
-    height: 183.72px;
-    gap: 7.58px;
-  }
-
-  .explore-now-trending {
-    @include flex-between;
-    width: 100%;
-    height: 20.56px;
-    margin-top: 0;
-
-    & img {
-      @include arrow-519;
-    }
-  }
-
-  .trending-text {
-    width: 93.35px;
-    height: 100%;
-
-    & .card-h2 {
-      width: 100%;
-      height: 9.47px;
-      @include card-h2-519;
-    }
-
-    & .explore-now {
-      width: $sz39;
-      height: $sz9;
-      @include explore-now-519;
-    }
-  }
-
-  .under {
-    width: 202.93px;
-    height: 183.72px;
-    gap: 7.58px;
-  }
-
-  .explore-now-under {
-    @include flex-between;
-    width: 100%;
-    height: 20.56px;
-    margin-top: 0;
-
-    & img {
-      @include arrow-519;
-    }
-  }
-
-  .under-text {
-    width: 54.11px;
-    height: 100%;
-
-    & .card-h2 {
-      width: 100%;
-      height: 9.47px;
-      @include card-h2-519;
-    }
-
-    & .explore-now {
-      width: $sz39;
-      height: $sz9;
-      @include explore-now-519;
-    }
-  }
-
-  .favourite-cards-img {
-    width: 100%;
-    height: 155.58px;
-    border-radius: $sz10;
-  }
-}
-
-//Responsive Voucher - max-width 519px
-
-@media screen and (max-width: 519px) {
-  .voucher {
-    display: flex;
-    position: absolute;
-    top: 1249.85px;
-    left: 60.34px;
-    width: 402px;
-    height: $sz200;
-  }
-
-  .voucher-content {
-    position: absolute;
-    top: 53.31px;
-    left: 0;
-    width: 133.12px;
-    height: 93.89px;
-  }
-
-  .voucher-content-text {
-    @include position-0;
-    width: 100%;
-    height: 57.09px;
-
-    & h2 {
-      width: 100%;
-      height: 29.49px;
-      font-weight: 900;
-      font-size: $sz13;
-      color: $black;
-      line-height: 16.23px;
-      letter-spacing: $em03;
-    }
-
-    & p {
-      width: 113.37px;
-      height: 16.5px;
-      font-weight: 500;
-      font-size: 6.49px;
-      color: $gray;
-      line-height: 9.47px;
-      letter-spacing: $em-04;
-      margin-top: 11.09px;
-    }
-  }
-
-  .voucher-apps {
-    display: flex;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 115.54px;
-    height: 19.21px;
-    gap: 5.14px;
-  }
-
-  .app-match {
-    position: absolute;
-    top: -3.66px;
-    right: 34.58px;
-    width: 100.67px;
-    height: 207.32px;
-    border: 3.66px solid $blue;
-    box-shadow: 0px 1.08px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 9.85px;
-    z-index: 1;
-  }
-
-  .circle1 {
-    position: absolute;
-    top: 19.22px;
-    left: 228.9px;
-
-    & img {
-      width: 5.95px;
-      height: 6.49px;
-    }
-  }
-
-  .circle2 {
-    position: absolute;
-    top: 15.16px;
-    left: 381.76px;
-
-    & img {
-      width: 13.53px;
-      height: 13.53px;
-    }
-  }
-
-  .circle3 {
-    position: absolute;
-    top: 185.35px;
-    left: 219.7px;
-
-    & img {
-      width: 9.2px;
-      height: 9.2px;
-    }
-  }
-
-  .circle4 {
-    position: absolute;
-    top: 163.97px;
-    left: 396.66px;
-
-    & img {
-      width: 4.6px;
-      height: 4.6px;
-    }
-  }
-
-  .circles-small {
-    position: absolute;
-    top: 37px;
-    left: 254.38px;
-    width: 124.56px;
-    height: 123px;
-    border: 0.49px solid $white-dark;
-    border-radius: 50%;
-  }
-
-  .circles-medium {
-    position: absolute;
-    top: 26px;
-    left: 240.66px;
-    width: 149px;
-    height: 147.13px;
-    border: 0.58px solid $white-dark;
-    border-radius: 50%;
-  }
-
-  .circles-large {
-    position: absolute;
-    top: 15.16px;
-    left: 228.9px;
-    width: 172.36px;
-    height: 170.19px;
-    border: 0.68px solid $white-dark;
-    border-radius: 50%;
-  }
-}
-
-//Responsive community - max-width 519px
-
-@media screen and (max-width: 519px) {
-  .community {
-    position: absolute;
-    top: 1505.82px;
-    left: 0;
-    width: $sz519;
-    height: 168.57px;
-    background-color: $gold-medium;
-
-    & h2 {
-      margin-top: 38.03px;
-      margin-left: 138.92px;
-      width: 285px;
-      height: $sz38;
-      font-weight: 900;
-      font-size: 14.88px;
-      color: $white;
-      line-height: 18.94px;
-      letter-spacing: $em03;
-      text-align: center;
-    }
-
-    & p {
-      margin-top: 5.68px;
-      margin-left: 144.92px;
-      width: 273.28px;
-      height: 7.85px;
-      font-weight: 400;
-      font-size: 8.66px;
-      color: $white;
-      line-height: 9.47px;
-      letter-spacing: $em03;
-      text-align: center;
-    }
-  }
-
-  .add-email {
-    @include flex-between;
-    margin-top: 13.26px;
-    margin-left: 182.1px;
-    width: 155.31px;
-    height: 23.54px;
-    background-color: $white;
-    border-radius: 4px;
-
-    & .add-email-here {
-      width: 72.78px;
-      height: 6.76px;
-      margin: 7.31px 28.95px 9.47px 7.31px;
-      font-weight: 400;
-      font-size: 6.49px;
-      color: $gray-darker;
-      line-height: 9.47px;
-      letter-spacing: $em03;
-      border: none;
-    }
-  }
-
-  .add-email-btn {
-    position: absolute;
-    top: 105.52px;
-    right: 184px;
-    width: 43.56px;
-    height: 18.13px;
-    border-radius: 2.16px;
-    padding: 4.51px 10.78px 6.62px 10.78px;
-    cursor: pointer;
-    background-color: $black;
-    color: $white;
-    font-weight: 500;
-    font-size: $sz8;
-    line-height: 9.47px;
-    letter-spacing: $em03;
-  }
-}
-
-//Responsive footer - max-width 519px
-
-@media screen and (max-width: 519px) {
-  .footer {
-    position: absolute;
-    top: 1674.39px;
-    left: 0;
-    width: $sz519;
-    height: 147.46px;
-    background-color: $black;
-  }
-
-  .footer-containter {
-    margin-top: 32.2px;
-    margin-left: 27.06px;
-    width: 465.39px;
-    height: 75.49px;
-  }
-
-  .fashion {
-    width: 112.29px;
-    height: 67.56px;
-    gap: 8.66px;
-
-    & h2 {
-      width: 51.95px;
-      height: 14.18px;
-      font-weight: 900;
-      font-size: 10.82px;
-      color: $white;
-      line-height: 100%;
-      letter-spacing: $em03;
-    }
-
-    & p {
-      font-family: $font-secondary;
-      width: 100%;
-      height: $sz22;
-      font-weight: 400;
-      font-size: 6.49px;
-      color: $gray-ligrter;
-      line-height: 10.82px;
-      letter-spacing: $em02;
-    }
-  }
-
-  .icons {
-    display: flex;
-    width: 67.64px;
-    height: 14.07px;
-    margin-left: 0;
-    margin-bottom: 0;
-    gap: 3.79px;
-    margin-top: $sz32;
-
-    & img {
-      width: 14.07px;
-      height: 100%;
-    }
-  }
-
-  .footer-list {
-    position: absolute;
-    top: 33.82px;
-    right: 27.06px;
-    display: flex;
-    width: 241px;
-    height: 73.87px;
-    gap: $sz46;
-  }
-
-  thead {
-    color: $gray-lightest;
-  }
-
-  tbody {
-    color: $gray-darkest;
-
-    & td {
-      margin-top: $sz9;
-    }
-  }
-
-  td {
-    font-family: $font-secondary;
-    font-weight: 400;
-    font-size: 6.49px;
-    line-height: 10.82px;
-    letter-spacing: $em02;
-  }
-
-  .company-list {
-    width: 36px;
-    height: 100%;
-  }
-
-  .quick-Link-list {
-    width: 51px;
-    height: 100%;
-  }
-
-  .legal-list {
-    width: 62px;
-    height: 40.32px;
-  }
+  width: 62px;
+  height: 40.32px;
 }
 
 //Responsive Body - max-width 912px
 
-@media screen and (max-width: 912px) {
+@media screen and (min-width: 519px) and (max-width: 912px) {
   body {
     position: relative;
     width: $sz912;
@@ -2012,7 +997,7 @@ td {
 
 //Responsive Header - max-width 912px
 
-@media screen and (max-width: 912px) {
+@media screen and (min-width: 519px) and (max-width: 912px) {
   .Header {
     position: absolute;
     top: $sz23;
@@ -2071,7 +1056,7 @@ td {
 
 //Responsive Unique - max-width 912px
 
-@media screen and (max-width: 912px) {
+@media screen and (min-width: 519px) and (max-width: 912px) {
   .section-unique {
     position: absolute;
     top: $sz23;
@@ -2133,10 +1118,10 @@ td {
 
   .unique-img {
     position: absolute;
-    top: 28.1px;
-    right: 19.5px;
-    width: 422px;
-    height: 423px;
+    top: 32.38px;
+    right: 38.57px;
+    width: 414.76px;
+    height: 373.33px;
 
     & img {
       width: 100%;
@@ -2148,44 +1133,32 @@ td {
     position: absolute;
     top: 32.1px;
     left: 354.5px;
-
-    & img {
-      width: 27.55px;
-      height: 26.61px;
-    }
+    width: 27.55px;
+    height: 26.61px;
   }
 
   .gray-star2 {
     position: absolute;
     top: 23.1px;
     left: 651.5px;
-
-    & img {
-      width: 27.55px;
-      height: 26.61px;
-    }
+    width: 27.55px;
+    height: 26.61px;
   }
 
   .gray-star3 {
     position: absolute;
     top: 355.1px;
     left: 368.5px;
-
-    & img {
-      width: 27.55px;
-      height: 26.61px;
-    }
+    width: 27.55px;
+    height: 26.61px;
   }
 
   .gray-star4 {
     position: absolute;
     top: 329.1px;
     left: 754.5px;
-
-    & img {
-      width: 27.55px;
-      height: 26.61px;
-    }
+    width: 27.55px;
+    height: 26.61px;
   }
 
   .unique-bg-white {
@@ -2211,7 +1184,7 @@ td {
 
 //Responsive Brands - max-width 912px
 
-@media screen and (max-width: 912px) {
+@media screen and (min-width: 519px) and (max-width: 912px) {
   .brand {
     position: absolute;
     top: $sz519;
@@ -2269,7 +1242,7 @@ td {
 
 //Responsive New Arrival - max-width 912px
 
-@media screen and (max-width: 912px) {
+@media screen and (min-width: 519px) and (max-width: 912px) {
   .new-arrivals {
     position: absolute;
     top: 633.65px;
@@ -2404,7 +1377,7 @@ td {
 
 //Responsive payday - max-width 912px
 
-@media screen and (max-width: 912px) {
+@media screen and (min-width: 519px) and (max-width: 912px) {
   .section-payday {
     position: absolute;
     top: 1186.2px;
@@ -2576,7 +1549,7 @@ td {
 
 //Responsive Favourites - max-width 912px
 
-@media screen and (max-width: 912px) {
+@media screen and (min-width: 519px) and (max-width: 912px) {
   .Favourites {
     position: absolute;
     top: 1737.62px;
@@ -2658,7 +1631,7 @@ td {
   }
 
   .under-text {
-    width: 95.23;
+    width: 95.23px;
     height: 100%;
 
     & .card-h2 {
@@ -2683,7 +1656,7 @@ td {
 
 //Responsive Voucher - max-width 912px
 
-@media screen and (max-width: 912px) {
+@media screen and (min-width: 519px) and (max-width: 912px) {
   .voucher {
     display: flex;
     position: absolute;
@@ -2742,10 +1715,10 @@ td {
     position: absolute;
     top: -10.71px;
     right: 56.19px;
-    width: 177.38x;
+    width: 177.38px;
     height: 359.52px;
     border: 10.71px solid $blue;
-    box-shadow: 0px 1.9px 21px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 1.9px 21px rgba(0, 0, 0, 0.12);
     border-radius: 16.67px;
     z-index: 1;
   }
@@ -2827,7 +1800,7 @@ td {
 
 //Responsive community - max-width 912px
 
-@media screen and (max-width: 912px) {
+@media screen and (min-width: 519px) and (max-width: 912px) {
   .community {
     position: absolute;
     top: 2688.57px;
@@ -2905,7 +1878,7 @@ td {
 
 //Responsive Footer - max-width 912px
 
-@media screen and (max-width: 912px) {
+@media screen and (min-width: 519px) and (max-width: 912px) {
   .footer {
     position: absolute;
     top: 2985.23px;
@@ -3013,5 +1986,2009 @@ td {
   .legal-list {
     width: 103.33px;
     height: 70.95px;
+  }
+}
+
+//Responsive Body - max-width 1440px
+
+@media screen and (min-width: 913px) and (max-width: 1440px) {
+  body {
+    position: relative;
+    width: $sz1440;
+    height: 5110.5px;
+    background-color: $white;
+    font-family: $font-primary;
+  }
+}
+
+//Responsive header - max-width 1440px
+
+@media screen and (min-width: 913px) and (max-width: 1440px) {
+  .Header {
+    position: absolute;
+    top: 34.5px;
+    left: 75px;
+    width: 1290px;
+    height: 46.5px;
+
+    & img {
+      width: 177px;
+      height: 45px;
+      margin-left: 0;
+    }
+  }
+
+  .li-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 630px;
+    height: 34.87px;
+  }
+
+  .li-btn ul {
+    @include flex-between;
+    width: 489px;
+    height: 27px;
+    margin: 9.75px 54px 9.75px 0;
+
+    & li {
+      font-weight: 500;
+      font-size: 16.5px;
+      line-height: 100%;
+      letter-spacing: -0.16px;
+      color: $black-lightest;
+
+      & a {
+        color: $black;
+      }
+    }
+  }
+
+  .btn-sing-up {
+    width: 100.5px;
+    height: 34.87px;
+    border-radius: 5.25px;
+    background-color: $black;
+    color: $white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: $em-03;
+    cursor: pointer;
+  }
+}
+
+//Responsive Unique - max-width 1440px
+
+@media screen and (min-width: 913px) and (max-width: 1440px) {
+  .section-unique {
+    position: absolute;
+    top: 42px;
+    left: 75px;
+    width: 1290px;
+    height: 639px;
+  }
+
+  .container-unique-clothes {
+    position: absolute;
+    top: 88.5px;
+    left: 0;
+    width: 1290px;
+    height: 639px;
+    border-radius: 44.25px;
+    background-color: $white-darkest;
+
+    & h1 {
+      position: absolute;
+      top: 57.75px;
+      left: 89.25px;
+      width: 355.5px;
+      height: 354.75px;
+      font-weight: 900;
+      font-size: 72px;
+      color: $black;
+      line-height: 90px;
+    }
+
+    p {
+      position: absolute;
+      top: 442.5px;
+      left: 89.25px;
+      width: 454.5px;
+      height: 43.5px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 100%;
+      color: $black-lighter;
+      letter-spacing: -1.2px;
+    }
+
+    .btn-shop-now {
+      position: absolute;
+      top: 510px;
+      left: 93.75px;
+      width: 165.75px;
+      height: 61.5px;
+      border-radius: 7.5px;
+      cursor: pointer;
+      background-color: $black;
+      color: $white;
+      font-weight: 500;
+      font-size: 22.5px;
+      line-height: 100%;
+      letter-spacing: $em-05;
+    }
+  }
+
+  .unique-img {
+    position: absolute;
+    top: 51px;
+    right: 60.75px;
+    width: 653.25px;
+    height: 588px;
+
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .gray-star1 {
+    position: absolute;
+    top: 51px;
+    left: 561px;
+    width: 43.5px;
+    height: 42px;
+  }
+
+  .gray-star2 {
+    position: absolute;
+    top: 78px;
+    left: 1068px;
+    width: 43.5px;
+    height: 42px;
+  }
+
+  .gray-star3 {
+    position: absolute;
+    top: 571.5px;
+    left: 593.25px;
+    width: 43.5px;
+    height: 42px;
+  }
+
+  .gray-star4 {
+    position: absolute;
+    top: 528px;
+    left: 1184.25px;
+    width: 43.5px;
+    height: 42px;
+  }
+
+  .unique-bg-white {
+    position: absolute;
+    top: 57.75px;
+    left: 61.5px;
+    width: 348.75px;
+    height: 84px;
+    rotate: $szdeg;
+    background-color: $white;
+  }
+
+  .unique-bg-gold {
+    position: absolute;
+    top: 233.25px;
+    left: 69.75px;
+    width: 372px;
+    height: 88.5px;
+    rotate: $szdeg;
+    background-color: $gold-light;
+  }
+}
+
+//Responsive Brands - max-width 1440px
+
+@media screen and (min-width: 913px) and (max-width: 1440px) {
+  .brand {
+    position: absolute;
+    top: 809.25px;
+    left: 0;
+    width: $sz1440;
+    height: 139.5px;
+    background-color: $gold-light;
+  }
+
+  .brand-logos {
+    @include flex-between;
+    position: absolute;
+    top: 45.75px;
+    left: 128.25px;
+    width: 1183.5px;
+    height: 53.25px;
+  }
+
+  .hm {
+    width: 88.5px;
+    height: 52.5px;
+    mix-blend-mode: darken;
+  }
+
+  .obey {
+    width: 112.5px;
+    height: 39px;
+    mix-blend-mode: multiply;
+  }
+
+  .shopify {
+    width: 132px;
+    height: 46.5px;
+    mix-blend-mode: multiply;
+  }
+
+  .lacoste {
+    width: 175.25px;
+    height: 52.5px;
+    mix-blend-mode: multiply;
+  }
+
+  .levis {
+    width: 95.25px;
+    height: 52.5px;
+    mix-blend-mode: multiply;
+  }
+
+  .amazon {
+    width: 124.5px;
+    height: 47.25px;
+    mix-blend-mode: multiply;
+  }
+}
+
+//Responsive New Arrivals - max-width 1440px
+
+@media screen and (min-width: 913px) and (max-width: 1440px) {
+  .new-arrivals {
+    position: absolute;
+    top: 1000.5px;
+    left: 78px;
+    width: 1285.5px;
+    height: 725.25px;
+  }
+
+  .new-arrivals-logo {
+    @include position-0;
+    width: 322.5px;
+    height: 43.5px;
+  }
+  .new-arrivals-cards {
+    display: flex;
+    margin-top: 119.25px;
+    width: 100%;
+    height: 606px;
+    gap: 67.5px;
+  }
+
+  .new-arrivals-cards-img {
+    width: 100%;
+    height: 528px;
+    border-radius: 15px;
+  }
+
+  .hoodies {
+    width: 363px;
+    height: 100%;
+  }
+
+  .coats {
+    margin-bottom: 2.25px;
+    width: 363px;
+    height: 603.75px;
+  }
+
+  .tees {
+    margin-bottom: 2.25px;
+    width: 367.5px;
+    height: 603.75px;
+  }
+
+  .explore-now-hoodies {
+    @include flex-between;
+    width: 100%;
+    height: 57px;
+    margin-top: 21px;
+
+    & img {
+      @include arrow-1440;
+    }
+  }
+
+  .hoodies-text {
+    width: 240.75px;
+    height: 100%;
+
+    & .card-h2 {
+      width: 100%;
+      height: 27px;
+      @include card-h2-1440;
+    }
+
+    & .explore-now {
+      width: 113.25px;
+      height: 24.75px;
+      @include explore-now-1440;
+    }
+  }
+
+  .explore-now-coats {
+    @include flex-between;
+    width: 100%;
+    height: 56.25px;
+    margin-top: 19.5px;
+
+    & img {
+      @include arrow-1440;
+    }
+  }
+
+  .coats-text {
+    width: 172.5px;
+    height: 100%;
+
+    & .card-h2 {
+      width: 100%;
+      height: 27px;
+      @include card-h2-1440;
+    }
+
+    & .explore-now {
+      width: 114.75px;
+      height: 24px;
+      @include explore-now-1440;
+    }
+  }
+
+  .explore-now-tees {
+    @include flex-between;
+    width: 100%;
+    height: 56.25px;
+    margin-top: 19.5px;
+
+    & img {
+      @include arrow-1440;
+    }
+  }
+
+  .tees-text {
+    width: 172.5px;
+    height: 100%;
+
+    & .card-h2 {
+      width: 100%;
+      height: 27px;
+      @include card-h2-1440;
+    }
+
+    & .explore-now {
+      width: 114.75px;
+      height: 24px;
+      @include explore-now-1440;
+    }
+  }
+}
+
+//Responsive Payday - max-width 1440px
+
+@media screen and (min-width: 913px) and (max-width: 1440px) {
+  .section-payday {
+    position: absolute;
+    top: 1868.25px;
+    left: 0;
+    width: $sz1440;
+    height: 726px;
+  }
+
+  .payday-img {
+    @include position-0;
+    width: 744px;
+    height: 100%;
+
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .white-star1 {
+    position: absolute;
+    top: 114px;
+    left: 102px;
+    width: 57px;
+    height: 57px;
+  }
+
+  .white-star2 {
+    position: absolute;
+    top: 63px;
+    left: 573.75px;
+    width: 57px;
+    height: 57px;
+  }
+
+  .white-star3 {
+    position: absolute;
+    top: 367.5px;
+    left: 140.25px;
+    width: 57px;
+    height: 57px;
+  }
+
+  .white-star4 {
+    position: absolute;
+    top: 479.25px;
+    left: 612.75px;
+    width: 57px;
+    height: 57px;
+  }
+
+  .payday-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 699px;
+    height: 100%;
+    background: linear-gradient(
+      1.32deg,
+      #e0c340 0.13%,
+      #dfc23e 3.97%,
+      #e1c441 7.2%,
+      #e3c743 10.13%,
+      #e4c542 12.98%,
+      #e6c744 15.99%,
+      #e7c845 19.52%,
+      #e5c643 23.96%,
+      #e6c945 30.43%,
+      #e3c743 36.49%,
+      #e9ca48 42.49%,
+      #edce49 49.35%,
+      #f0d44c 55.42%,
+      #f4d84f 61.43%,
+      #f6da52 65.74%,
+      #f7db53 72.23%,
+      #f9dd55 77.43%,
+      #f9df56 83.84%,
+      #fae157 91.52%,
+      #f9df56 97.87%
+    );
+  }
+
+  .payday-text {
+    position: absolute;
+    top: 96px;
+    left: 50.25px;
+    width: 500.25px;
+    height: 513.75px;
+
+    & h2 {
+      position: absolute;
+      top: 0;
+      right: 37.5px;
+      width: 462.75px;
+      height: 215.25px;
+      font-weight: 900;
+      font-size: 84px;
+      color: $black;
+      line-height: 102.75px;
+    }
+
+    .btn-shop-now-payday {
+      position: absolute;
+      bottom: 0;
+      left: 17.25px;
+      width: 199.5px;
+      height: 72px;
+      border-radius: 6px;
+      cursor: pointer;
+      background-color: $black;
+      color: $white;
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 100%;
+      letter-spacing: $em02;
+      text-transform: uppercase;
+    }
+  }
+
+  .playday-p1 {
+    position: absolute;
+    top: 240px;
+    left: 17.25px;
+    width: 482.25px;
+    height: 68.25px;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 39.24px;
+    letter-spacing: $em-02;
+    color: $black-light;
+  }
+
+  .playday-p2 {
+    position: absolute;
+    top: 338.25px;
+    left: 17.25px;
+    width: 321.75px;
+    height: 28.5px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 39.24px;
+    letter-spacing: $em02;
+    color: $black;
+  }
+
+  .playday-p3 {
+    position: absolute;
+    top: 375px;
+    left: 17.25px;
+    width: 369px;
+    height: 27.75px;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 39.24px;
+    letter-spacing: $em-02;
+    color: $black;
+  }
+
+  .payday-bg-white {
+    position: absolute;
+    top: 0;
+    left: -17.25px;
+    width: 406.5px;
+    height: 97.5px;
+    rotate: $szdeg;
+    background-color: $white;
+  }
+}
+
+//Responsive Favourites - max-width 1440px
+
+@media screen and (min-width: 913px) and (max-width: 1440px) {
+  .Favourites {
+    position: absolute;
+    top: 2736.75px;
+    left: 75px;
+    width: 1290px;
+    height: 634.25px;
+  }
+
+  .Favourites-logo {
+    @include position-0;
+    width: 413.25px;
+    height: 48px;
+  }
+  .Favourites-cards {
+    display: flex;
+    margin-top: 126px;
+    width: 100%;
+    height: 509.25px;
+    gap: 35.25px;
+  }
+
+  .Favourites-cards-img {
+    width: 100%;
+    height: 431.25px;
+    border-radius: 15px;
+  }
+
+  .trending {
+    width: 626.25px;
+    height: 100%;
+  }
+
+  .explore-now-trending {
+    @include flex-between;
+    width: 100%;
+    height: 57px;
+    margin-top: 21px;
+
+    & img {
+      @include arrow-1440;
+    }
+  }
+
+  .trending-text {
+    width: 258.75px;
+    height: 100%;
+
+    & .card-h2 {
+      width: 100%;
+      height: 27px;
+      @include card-h2-1440;
+    }
+
+    & .explore-now {
+      width: 109.5px;
+      height: 24.75px;
+      @include explore-now-1440;
+    }
+  }
+
+  .under {
+    width: 628.5px;
+    height: 100%;
+  }
+
+  .explore-now-under {
+    @include flex-between;
+    width: 100%;
+    height: 56.25px;
+    margin-top: 21px;
+
+    & img {
+      @include arrow-1440;
+    }
+  }
+
+  .under-text {
+    width: 150px;
+    height: 100%;
+
+    & .card-h2 {
+      width: 100%;
+      height: 26.25px;
+      @include card-h2-1440;
+    }
+
+    & .explore-now {
+      width: 107.25px;
+      height: 24.75px;
+      @include explore-now-1440;
+    }
+  }
+
+  .favourite-cards-img {
+    width: 100%;
+    height: 431.25px;
+    border-radius: 15px;
+  }
+}
+
+//Responsive Voucher - max-width 1440px
+
+@media screen and (min-width: 913px) and (max-width: 1440px) {
+  .voucher {
+    display: flex;
+    position: absolute;
+    top: 3537px;
+    left: 164.25px;
+    width: 1112.25px;
+    height: 532.5px;
+  }
+
+  .voucher-content {
+    position: absolute;
+    top: 135.75px;
+    left: 0;
+    width: 380.25px;
+    height: 286.5px;
+  }
+
+  .voucher-content-text {
+    @include position-0;
+    width: 100%;
+    height: 184.5px;
+
+    & h2 {
+      width: 100%;
+      height: 108px;
+      font-weight: 900;
+      font-size: 36px;
+      color: $black;
+      line-height: 112.5%;
+      letter-spacing: 0.04em;
+    }
+
+    & p {
+      width: 314.25px;
+      height: 45.75px;
+      font-weight: 500;
+      font-size: 18px;
+      color: $gray;
+      line-height: 26.25px;
+      letter-spacing: $em-04;
+      margin-top: 30.75px;
+    }
+  }
+
+  .voucher-apps {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 320.25px;
+    height: 53.25px;
+    gap: 14.25px;
+  }
+
+  .app-match {
+    position: absolute;
+    top: -16.87px;
+    right: 88.5px;
+    width: 279.37px;
+    height: 566.25px;
+    border: 16.87px solid $blue;
+    box-shadow: 0px 3px 47.25px rgba(0, 0, 0, 0.19);
+    border-radius: 26.25px;
+    z-index: 1;
+  }
+
+  .circle1 {
+    position: absolute;
+    top: 41.25px;
+    left: 634.5px;
+
+    & img {
+      width: 16.5px;
+      height: 18px;
+    }
+  }
+
+  .circle2 {
+    position: absolute;
+    top: 30px;
+    left: 1058.25px;
+
+    & img {
+      width: 37.5px;
+      height: 37.5px;
+    }
+  }
+
+  .circle3 {
+    position: absolute;
+    top: 501.75px;
+    left: 609px;
+
+    & img {
+      width: 25.5px;
+      height: 25.5px;
+    }
+  }
+
+  .circle4 {
+    position: absolute;
+    top: 442.5px;
+    left: 1099.5px;
+
+    & img {
+      width: 12.75px;
+      height: 12.75px;
+    }
+  }
+
+  .circles-small {
+    position: absolute;
+    top: 103.5px;
+    left: 702.75px;
+    width: 330px;
+    height: 325.5px;
+    border: 1.87px solid $white-dark;
+    border-radius: 50%;
+  }
+
+  .circles-medium {
+    position: absolute;
+    top: 67.5px;
+    left: 671.25px;
+    width: 402.75px;
+    height: 397.5px;
+    border: 1.87px solid $white-dark;
+    border-radius: 50%;
+  }
+
+  .circles-large {
+    position: absolute;
+    top: 30px;
+    left: 634.5px;
+    width: 477.75px;
+    height: 471.75px;
+    border: 1.87px solid $white-dark;
+    border-radius: 50%;
+  }
+}
+
+//Responsive Community - max-width 1440px
+
+@media screen and (min-width: 913px) and (max-width: 1440px) {
+  .community {
+    position: absolute;
+    top: 4234.5px;
+    left: 0;
+    width: $sz1440;
+    height: 467.25px;
+    background-color: $gold-medium;
+
+    & h2 {
+      margin-top: 105.75px;
+      margin-left: 357.75px;
+      width: 724.5px;
+      height: 93px;
+      font-weight: 900;
+      font-size: 41.25px;
+      color: $white;
+      line-height: 52.5px;
+      letter-spacing: $em03;
+      text-align: center;
+    }
+
+    & p {
+      margin-top: 27.75px;
+      margin-left: 341.25px;
+      width: 757.5px;
+      height: 21.75px;
+      font-weight: 400;
+      font-size: 24px;
+      color: $white-darker;
+      line-height: 26.25px;
+      letter-spacing: $em03;
+      text-align: center;
+    }
+  }
+
+  .add-email {
+    @include flex-between;
+    margin-top: 36.75px;
+    margin-left: 504.75px;
+    width: 430.5px;
+    height: 65.25px;
+    background-color: $white;
+    border-radius: 7.5px;
+
+    & .add-email-here {
+      width: 261.75px;
+      height: 18.75px;
+      margin: 20.25px 107px 26.25px 20.25px;
+      font-weight: 400;
+      font-size: 18px;
+      color: $gray-darker;
+      line-height: 26.25px;
+      letter-spacing: $em03;
+      border: none;
+    }
+  }
+
+  .add-email-btn {
+    position: absolute;
+    top: 292.5px;
+    right: 512.25px;
+    width: 120.75px;
+    height: 50.25px;
+    border-radius: 6px;
+    padding: 12.75px 26.25px 11.25px 28.5px;
+    cursor: pointer;
+    background-color: $black;
+    color: $white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26.25px;
+    letter-spacing: $em03;
+  }
+}
+
+//Responsive Footer - max-width 1440px
+
+@media screen and (min-width: 913px) and (max-width: 1440px) {
+  .footer {
+    position: absolute;
+    top: 4701.75px;
+    left: 0;
+    width: $sz1440;
+    height: 408.75px;
+    background-color: $black;
+  }
+
+  .footer-containter {
+    margin-top: 89.25px;
+    margin-left: 75px;
+    width: 725.62px;
+    height: 209.25px;
+  }
+
+  .fashion {
+    width: 311.25px;
+    height: 186px;
+    gap: 24px;
+
+    & h2 {
+      width: 144px;
+      height: 39px;
+      font-weight: 900;
+      font-size: 30px;
+      color: $white;
+      line-height: 100%;
+      letter-spacing: $em03;
+    }
+
+    & p {
+      font-family: $font-secondary;
+      width: 311.25px;
+      height: 60px;
+      font-weight: 400;
+      font-size: 18px;
+      color: $gray-ligrter;
+      line-height: 30px;
+      letter-spacing: $em02;
+    }
+  }
+
+  .icons {
+    display: flex;
+    width: 187.5px;
+    height: 39px;
+    margin-left: 0;
+    margin-bottom: 0;
+    gap: 10.5px;
+    margin-top: 24px;
+
+    & img {
+      width: 39px;
+      height: 100%;
+    }
+  }
+
+  .footer-list {
+    position: absolute;
+    top: 89.25px;
+    right: 75px;
+    display: flex;
+    width: 667.5px;
+    height: 204.75px;
+    gap: 141px;
+  }
+
+  thead {
+    color: $gray-lightest;
+  }
+
+  tbody {
+    color: $gray-darkest;
+
+    & td {
+      margin-top: 15px;
+    }
+  }
+
+  tr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  td {
+    font-family: $font-secondary;
+    font-weight: 400;
+    font-size: 17.25px;
+    line-height: 30px;
+    letter-spacing: $em02;
+  }
+
+  .company-list {
+    width: 90px;
+    height: 100%;
+  }
+
+  .quick-Link-list {
+    width: 132.75px;
+    height: 100%;
+  }
+
+  .legal-list {
+    width: 162.75px;
+    height: 111.75px;
+  }
+}
+
+//Responsive Body - max-width 1920px
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  body {
+    position: relative;
+    width: $sz1920;
+    height: 6814px;
+    background-color: $white;
+    font-family: $font-primary;
+  }
+}
+
+//header
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .Header {
+    position: absolute;
+    top: $sz46;
+    left: $sz100;
+    width: $sz1720;
+    height: $sz62;
+
+    & img {
+      width: 236px;
+      height: 60px;
+      margin-left: 0;
+    }
+  }
+
+  .li-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 840px;
+    height: $sz62;
+  }
+
+  .li-btn ul {
+    @include flex-between;
+    width: 652px;
+    height: $sz36;
+    margin: $sz13 54px $sz13 0;
+
+    & li {
+      font-weight: 500;
+      font-size: $sz22;
+      line-height: 100%;
+      letter-spacing: -0.16px;
+      color: $black-lightest;
+
+      & a {
+        color: $black;
+      }
+    }
+  }
+
+  .btn-sing-up {
+    width: $sz134;
+    height: $sz62;
+    border-radius: $sz7;
+    background-color: $black;
+    color: $white;
+    font-weight: 500;
+    font-size: $sz24;
+    line-height: 100%;
+    letter-spacing: $em-03;
+    cursor: pointer;
+  }
+}
+
+//Responsive Unique - max-width 1920px
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .section-unique {
+    position: absolute;
+    top: 56px;
+    left: $sz100;
+    width: $sz1720;
+    height: $sz852;
+  }
+
+  .container-unique-clothes {
+    position: absolute;
+    top: $sz118;
+    left: 0;
+    width: $sz1720;
+    height: $sz852;
+    border-radius: 59px;
+    background-color: $white-darkest;
+
+    & h1 {
+      position: absolute;
+      top: $sz77;
+      left: $sz119;
+      width: 474px;
+      height: 473px;
+      font-weight: 900;
+      font-size: $sz96;
+      color: $black;
+      line-height: $sz120;
+    }
+
+    p {
+      position: absolute;
+      top: $sz590;
+      left: $sz119;
+      width: 606px;
+      height: $sz58;
+      font-weight: 400;
+      font-size: $sz32;
+      line-height: 100%;
+      color: $black-lighter;
+      letter-spacing: -1.6px;
+    }
+
+    .btn-shop-now {
+      position: absolute;
+      top: 680px;
+      left: $sz125;
+      width: 221px;
+      height: $sz82;
+      border-radius: $sz10;
+      cursor: pointer;
+      background-color: $black;
+      color: $white;
+      font-weight: 500;
+      font-size: $sz30;
+      line-height: 100%;
+      letter-spacing: $em-05;
+    }
+  }
+
+  .unique-img {
+    position: absolute;
+    top: $sz68;
+    right: 81px;
+    width: 871px;
+    height: 784px;
+
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .gray-star1 {
+    position: absolute;
+    top: $sz68;
+    left: 748px;
+    width: $sz58;
+    height: 56px;
+  }
+
+  .gray-star2 {
+    position: absolute;
+    top: $sz104;
+    left: 1424px;
+    width: $sz58;
+    height: 56px;
+  }
+
+  .gray-star3 {
+    position: absolute;
+    top: 762px;
+    left: 791px;
+    width: $sz58;
+    height: 56px;
+  }
+
+  .gray-star4 {
+    position: absolute;
+    top: $sz704;
+    left: 1579px;
+    width: $sz58;
+    height: 56px;
+  }
+
+  .unique-bg-white {
+    position: absolute;
+    top: $sz77;
+    left: $sz82;
+    width: 465px;
+    height: $sz112;
+    rotate: $szdeg;
+    background-color: $white;
+  }
+
+  .unique-bg-gold {
+    position: absolute;
+    top: 311px;
+    left: 93px;
+    width: 496px;
+    height: $sz118;
+    rotate: $szdeg;
+    background-color: $gold-light;
+  }
+}
+
+//Responsive Brands - max-width 1920px
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .brand {
+    position: absolute;
+    top: 1079px;
+    left: 0;
+    width: $sz1920;
+    height: 186px;
+    background-color: $gold-light;
+  }
+
+  .brand-logos {
+    @include flex-between;
+    position: absolute;
+    top: $sz61;
+    left: 171px;
+    width: 1578px;
+    height: $sz71;
+  }
+
+  .hm {
+    width: $sz118;
+    height: $sz70;
+    mix-blend-mode: darken;
+  }
+
+  .obey {
+    width: 150px;
+    height: $sz52;
+    mix-blend-mode: multiply;
+  }
+
+  .shopify {
+    width: 176px;
+    height: $sz62;
+    mix-blend-mode: multiply;
+  }
+
+  .lacoste {
+    width: 235px;
+    height: $sz70;
+    mix-blend-mode: multiply;
+  }
+
+  .levis {
+    width: 127px;
+    height: $sz70;
+    mix-blend-mode: multiply;
+  }
+
+  .amazon {
+    width: 166px;
+    height: $sz63;
+    mix-blend-mode: multiply;
+  }
+}
+
+//Responsive New Arrivals - max-width 1920px
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .new-arrivals {
+    position: absolute;
+    top: 1334px;
+    left: $sz104;
+    width: 1714px;
+    height: 967px;
+  }
+
+  .new-arrivals-logo {
+    @include position-0;
+    width: 430px;
+    height: $sz58;
+  }
+  .new-arrivals-cards {
+    display: flex;
+    margin-top: 159px;
+    width: 100%;
+    height: 808px;
+    gap: $sz90;
+
+    & .card-h2 {
+      @include card-h2;
+    }
+
+    & .explore-now {
+      @include explore-now;
+    }
+  }
+
+  .new-arrivals-cards-img {
+    width: 100%;
+    height: $sz704;
+    border-radius: $sz20;
+  }
+
+  .hoodies {
+    width: $sz484;
+    height: 100%;
+  }
+
+  .coats {
+    margin-bottom: $sz3;
+    width: $sz484;
+    height: $sz805;
+  }
+
+  .tees {
+    margin-bottom: $sz3;
+    width: $sz490;
+    height: $sz805;
+  }
+
+  .explore-now-hoodies {
+    @include flex-between;
+    width: 100%;
+    height: $sz76;
+    margin-top: $sz28;
+  }
+
+  .hoodies-text {
+    width: 321px;
+    height: 100%;
+
+    & h2 {
+      width: 100%;
+      height: $sz36;
+    }
+
+    & p {
+      width: 151px;
+      height: $sz33;
+    }
+
+    & img {
+      @include arrow;
+    }
+  }
+
+  .explore-now-coats {
+    @include flex-between;
+    width: 100%;
+    height: $sz75;
+    margin-top: $sz26;
+  }
+
+  .coats-text {
+    width: $sz230;
+    height: 100%;
+
+    & h2 {
+      width: 100%;
+      height: $sz36;
+    }
+
+    & p {
+      width: $sz153;
+      height: $sz32;
+    }
+
+    & img {
+      @include arrow;
+    }
+  }
+
+  .explore-now-tees {
+    @include flex-between;
+    width: 100%;
+    height: $sz75;
+    margin-top: $sz26;
+  }
+
+  .tees-text {
+    width: $sz230;
+    height: 100%;
+
+    & h2 {
+      width: 100%;
+      height: $sz36;
+    }
+
+    & p {
+      width: $sz153;
+      height: $sz32;
+    }
+
+    & img {
+      @include arrow;
+    }
+  }
+}
+
+//Responsive Payday - max-width 1920px
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .section-payday {
+    position: absolute;
+    top: 2491px;
+    left: 0;
+    width: $sz1920;
+    height: 968px;
+  }
+
+  .payday-img {
+    @include position-0;
+    width: 992px;
+    height: 100%;
+
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .white-star1 {
+    position: absolute;
+    top: 152px;
+    left: 136px;
+    width: $sz76;
+    height: $sz76;
+  }
+
+  .white-star2 {
+    position: absolute;
+    top: 84px;
+    left: 765px;
+    width: $sz76;
+    height: $sz76;
+  }
+
+  .white-star3 {
+    position: absolute;
+    top: $sz490;
+    left: 187px;
+    width: $sz76;
+    height: $sz76;
+  }
+
+  .white-star4 {
+    position: absolute;
+    top: 639px;
+    left: $sz817;
+    width: $sz76;
+    height: $sz76;
+  }
+
+  .payday-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 932px;
+    height: 100%;
+    background: linear-gradient(
+      1.32deg,
+      #e0c340 0.13%,
+      #dfc23e 3.97%,
+      #e1c441 7.2%,
+      #e3c743 10.13%,
+      #e4c542 12.98%,
+      #e6c744 15.99%,
+      #e7c845 19.52%,
+      #e5c643 23.96%,
+      #e6c945 30.43%,
+      #e3c743 36.49%,
+      #e9ca48 42.49%,
+      #edce49 49.35%,
+      #f0d44c 55.42%,
+      #f4d84f 61.43%,
+      #f6da52 65.74%,
+      #f7db53 72.23%,
+      #f9dd55 77.43%,
+      #f9df56 83.84%,
+      #fae157 91.52%,
+      #f9df56 97.87%
+    );
+  }
+
+  .payday-text {
+    position: absolute;
+    top: 128px;
+    left: $sz67;
+    width: 667px;
+    height: 685px;
+
+    & h2 {
+      position: absolute;
+      top: 0;
+      right: $sz50;
+      width: 617px;
+      height: 287px;
+      font-weight: 900;
+      font-size: $sz112;
+      color: $black;
+      line-height: 137px;
+    }
+
+    .btn-shop-now-payday {
+      position: absolute;
+      bottom: 0;
+      left: $sz23;
+      width: 266px;
+      height: $sz96;
+      border-radius: $sz8;
+      cursor: pointer;
+      background-color: $black;
+      color: $white;
+      font-weight: 600;
+      font-size: $sz28;
+      line-height: 100%;
+      letter-spacing: $em02;
+      text-transform: uppercase;
+    }
+  }
+
+  .playday-p1 {
+    position: absolute;
+    top: 320px;
+    left: $sz23;
+    width: 643px;
+    height: 91px;
+    font-weight: 500;
+    font-size: $sz36;
+    line-height: 52.32px;
+    letter-spacing: $em-02;
+    color: $black-light;
+  }
+
+  .playday-p2 {
+    position: absolute;
+    top: 451px;
+    left: $sz23;
+    width: 429px;
+    height: $sz38;
+    font-weight: 700;
+    font-size: $sz36;
+    line-height: 52.32px;
+    letter-spacing: $em02;
+    color: $black;
+  }
+
+  .playday-p3 {
+    position: absolute;
+    top: 500px;
+    left: $sz23;
+    width: 492px;
+    height: $sz37;
+    font-weight: 400;
+    font-size: $sz36;
+    line-height: 52.32px;
+    letter-spacing: $em-02;
+    color: $black;
+  }
+
+  .payday-bg-white {
+    position: absolute;
+    top: 0;
+    left: -23px;
+    width: 542px;
+    height: 130px;
+    rotate: $szdeg;
+    background-color: $white;
+  }
+}
+
+//Responsive Favourites - max-width 1920px
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .Favourites {
+    position: absolute;
+    top: 3649px;
+    left: $sz100;
+    width: $sz1720;
+    height: 847px;
+  }
+
+  .Favourites-logo {
+    @include position-0;
+    width: 551px;
+    height: 64px;
+  }
+  .Favourites-cards {
+    display: flex;
+    margin-top: 168px;
+    width: 100%;
+    height: 679px;
+    gap: 47px;
+
+    & .card-h2 {
+      @include card-h2;
+    }
+
+    & .explore-now {
+      @include explore-now;
+    }
+  }
+
+  .Favourites-cards-img {
+    width: 100%;
+    height: $sz575;
+    border-radius: $sz20;
+  }
+
+  .trending {
+    width: 835px;
+    height: 100%;
+  }
+
+  .explore-now-trending {
+    @include flex-between;
+    width: 100%;
+    height: $sz76;
+    margin-top: $sz28;
+  }
+
+  .trending-text {
+    width: 345px;
+    height: 100%;
+
+    & h2 {
+      width: 100%;
+      height: $sz36;
+    }
+
+    & p {
+      width: 146px;
+      height: $sz33;
+    }
+
+    & img {
+      @include arrow;
+    }
+  }
+
+  .under {
+    width: 838px;
+    height: 100%;
+  }
+
+  .explore-now-under {
+    @include flex-between;
+    width: 100%;
+    height: $sz75;
+    margin-top: $sz28;
+  }
+
+  .under-text {
+    width: $sz200;
+    height: 100%;
+
+    & h2 {
+      width: 100%;
+      height: $sz35;
+    }
+
+    & p {
+      width: 143px;
+      height: $sz33;
+    }
+
+    & img {
+      @include arrow;
+    }
+  }
+
+  .favourite-cards-img {
+    width: 100%;
+    height: $sz575;
+    border-radius: $sz20;
+  }
+}
+
+//Responsive Voucher - max-width 1920px
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .voucher {
+    display: flex;
+    position: absolute;
+    top: 4716px;
+    left: 219px;
+    width: 1483px;
+    height: 710px;
+  }
+
+  .voucher-content {
+    position: absolute;
+    top: 181px;
+    left: 0;
+    width: 507px;
+    height: 382px;
+  }
+
+  .voucher-content-text {
+    @include position-0;
+    width: 100%;
+    height: 246px;
+
+    & h2 {
+      width: 100%;
+      height: 144px;
+      font-weight: 900;
+      font-size: $sz48;
+      color: $black;
+      line-height: 150%;
+      letter-spacing: 0.04em;
+    }
+
+    & p {
+      width: 419px;
+      height: $sz61;
+      font-weight: 500;
+      font-size: $sz24;
+      color: $gray;
+      line-height: $sz35;
+      letter-spacing: $em-04;
+      margin-top: $sz41;
+    }
+  }
+
+  .voucher-apps {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 427px;
+    height: $sz71;
+    gap: 19px;
+  }
+
+  .app-match {
+    position: absolute;
+    top: -22.5px;
+    right: $sz118;
+    width: 372.5px;
+    height: 755px;
+    border: 22.58px solid $blue;
+    box-shadow: 0px $sz4 $sz63 rgba(0, 0, 0, 0.25);
+    border-radius: $sz35;
+    z-index: 1;
+  }
+
+  .circle1 {
+    position: absolute;
+    top: $sz55;
+    left: $sz846;
+
+    & img {
+      width: $sz22;
+      height: $sz24;
+    }
+  }
+
+  .circle2 {
+    position: absolute;
+    top: $sz40;
+    left: 1411px;
+
+    & img {
+      width: $sz50;
+      height: $sz50;
+    }
+  }
+
+  .circle3 {
+    position: absolute;
+    top: 669px;
+    left: 812px;
+
+    & img {
+      width: $sz34;
+      height: $sz34;
+    }
+  }
+
+  .circle4 {
+    position: absolute;
+    top: $sz590;
+    left: 1466px;
+
+    & img {
+      width: $sz17;
+      height: $sz17;
+    }
+  }
+
+  .circles-small {
+    position: absolute;
+    top: 138px;
+    left: 937px;
+    width: 440px;
+    height: 434px;
+    border: 2.5px solid $white-dark;
+    border-radius: 50%;
+  }
+
+  .circles-medium {
+    position: absolute;
+    top: $sz90;
+    left: 895px;
+    width: 537px;
+    height: 530px;
+    border: 2.5px solid $white-dark;
+    border-radius: 50%;
+  }
+
+  .circles-large {
+    position: absolute;
+    top: $sz40;
+    left: $sz846;
+    width: 637px;
+    height: 629px;
+    border: 2.5px solid $white-dark;
+    border-radius: 50%;
+  }
+}
+
+//Responsive Community - max-width 1920px
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .community {
+    position: absolute;
+    top: 5646px;
+    left: 0;
+    width: $sz1920;
+    height: 623px;
+    background-color: $gold-medium;
+
+    & h2 {
+      margin-top: 141px;
+      margin-left: 477px;
+      width: 966px;
+      height: 124px;
+      font-weight: 900;
+      font-size: $sz55;
+      color: $white;
+      line-height: $sz70;
+      letter-spacing: $em03;
+      text-align: center;
+    }
+
+    & p {
+      margin-top: $sz37;
+      margin-left: 455px;
+      width: 1010px;
+      height: $sz29;
+      font-weight: 400;
+      font-size: $sz32;
+      color: $white-darker;
+      line-height: $sz35;
+      letter-spacing: $em03;
+      text-align: center;
+    }
+  }
+
+  .add-email {
+    @include flex-between;
+    margin-top: 49px;
+    margin-left: 673px;
+    width: 574px;
+    height: 87px;
+    background-color: $white;
+    border-radius: $sz10;
+
+    & .add-email-here {
+      width: 269px;
+      height: $sz25;
+      margin: $sz27 107px $sz35 $sz27;
+      font-weight: 400;
+      font-size: $sz24;
+      color: $gray-darker;
+      line-height: $sz35;
+      letter-spacing: $em03;
+      border: none;
+    }
+  }
+
+  .add-email-btn {
+    position: absolute;
+    top: 390px;
+    right: 683px;
+    width: 161px;
+    height: 67px;
+    border-radius: $sz8;
+    padding: $sz17 $sz35 $sz15 $sz38;
+    cursor: pointer;
+    background-color: $black;
+    color: $white;
+    font-weight: 500;
+    font-size: $sz24;
+    line-height: $sz35;
+    letter-spacing: $em03;
+  }
+}
+
+//Responsive Footer - max-width 1920px
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .footer {
+    position: absolute;
+    top: 6269px;
+    left: 0;
+    width: $sz1920;
+    height: 545px;
+    background-color: $black;
+  }
+
+  .footer-containter {
+    margin-top: $sz119;
+    margin-left: $sz100;
+    width: $sz1720;
+    height: 279px;
+  }
+
+  .fashion {
+    width: $sz415;
+    height: 248px;
+    gap: $sz32;
+
+    & h2 {
+      width: 192px;
+      height: $sz52;
+      font-weight: 900;
+      font-size: $sz40;
+      color: $white;
+      line-height: 100%;
+      letter-spacing: $em03;
+    }
+
+    & p {
+      font-family: $font-secondary;
+      width: $sz415;
+      height: 80px;
+      font-weight: 400;
+      font-size: $sz24;
+      color: $gray-ligrter;
+      line-height: $sz40;
+      letter-spacing: $em02;
+    }
+  }
+
+  .icons {
+    display: flex;
+    width: 250px;
+    height: $sz52;
+    margin-left: 0;
+    margin-bottom: 0;
+    gap: 14px;
+    margin-top: $sz32;
+
+    & img {
+      width: $sz52;
+      height: 100%;
+    }
+  }
+
+  .footer-list {
+    position: absolute;
+    top: $sz119;
+    right: $sz100;
+    display: flex;
+    width: 890px;
+    height: 273px;
+    gap: 188px;
+  }
+
+  thead {
+    color: $gray-lightest;
+  }
+
+  tbody {
+    color: $gray-darkest;
+
+    & td {
+      margin-top: $sz20;
+    }
+  }
+
+  tr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  td {
+    font-family: $font-secondary;
+    font-weight: 400;
+    font-size: $sz23;
+    line-height: $sz40;
+    letter-spacing: $em02;
+  }
+
+  .company-list {
+    width: $sz120;
+    height: 100%;
+  }
+
+  .quick-Link-list {
+    width: 177px;
+    height: 100%;
+  }
+
+  .legal-list {
+    width: 217px;
+    height: 149px;
   }
 }
